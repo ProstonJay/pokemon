@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Hall_Window_Rank_GoodSkin" width="520" height="90" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1650ff29636" ></w:Config>
+	<e:Image width="100%" height="100%" x="0" y="0" source="email_kuang_png" scale9Grid="13,15,19,19"/>
+	<e:Image width="70" height="70" x="118" y="9.5" source="duihuan_ditu2_png"/>
+	<e:Image  width="52" height="55" x="126" y="17" source="{data.icon}" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label  x="208" y="26" anchorOffsetX="0" width="244" anchorOffsetY="0" height="46" textColor="0xec1df7" fontFamily="SimHei" verticalAlign="middle" textAlign="center" text="{data.name}"/>
+	<e:Label x="12" y="7" anchorOffsetX="0" width="79" anchorOffsetY="0" height="82" textColor="0xEC1DF7" fontFamily="SimHei" verticalAlign="middle" textAlign="center" text="{data.rank}" size="50"/>
+</e:Skin>

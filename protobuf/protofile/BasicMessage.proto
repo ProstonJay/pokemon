@@ -1,0 +1,28 @@
+syntax = "proto3";
+package com.aoo.chess.comms.protocol.proto.message;
+option java_outer_classname = "BasicMessage";
+
+message PushMessage{
+	bytes childMessage = 1;
+	int32 mainCmd = 2;
+	int32 subCmd = 3;
+}
+
+message ServerPushMessage{
+	repeated int32 players = 1;
+	PushMessage msg = 2;
+}
+
+message ReloadStaticData{
+	string cmd = 1;
+}
+
+message ReloadStaticDataResults{
+	repeated ReloadStaticDataResult results = 1;
+}
+
+message ReloadStaticDataResult{
+	int32 serverId = 1;
+	int32 serverType = 2;
+	bool sucess = 3;
+}

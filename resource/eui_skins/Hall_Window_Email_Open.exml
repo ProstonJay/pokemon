@@ -1,0 +1,28 @@
+<e:Skin class="Hall_Window_Email_OpenSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" >
+	<w:Config id="1650e54aec9" ></w:Config>
+	<e:Group width="720" height="1280" x="0" y="0">
+			<e:Image source="duihuan_ditu_png" width="607.46" height="567.18" scaleX="1" scaleY="1" scale9Grid="57,50,50,60" anchorOffsetX="301.1" anchorOffsetY="282.89" verticalCenter="-210.5" horizontalCenter="-0.5"/>
+		<e:Image source="tujian_ditu1_png" y="173.75" scale9Grid="187,154,191,228" anchorOffsetY="0" height="509.64" anchorOffsetX="0" width="561.06" horizontalCenter="0"/>
+		<eui:EffectButton id="_CloseBtn" label="" x="643.65" y="166.34" enabled="true" anchorOffsetX="44" anchorOffsetY="42">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="duihuan_guanbi_png" source.down="duihuan_guanbi_png" source.disabled="duihuan_guanbi_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<e:Image source="email_neirong_png" y="165.84" horizontalCenter="0"/>
+		<e:Image source="email_wupin_png" x="95.46" y="516.21"/>
+		<e:Image source="email_kuang1_png" y="502.71" left="234"/>
+		<e:Image source="email_kuang1_png" y="502.71" horizontalCenter="26.5"/>
+		<e:Image source="email_kuang1_png" x="460.44" y="502.71"/>
+		<eui:EffectButton label="" y="640" enabled="true" horizontalCenter="0">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="email_shanchu_png" source.down="email_shanchu_png" source.disabled="email_shanchu_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+	</e:Group>
+</e:Skin>

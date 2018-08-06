@@ -1,0 +1,115 @@
+syntax = "proto3";
+package com.aoo.chess.comms.protocol.proto.message;
+option java_outer_classname = "RoomMessage";
+import "PlayerMessage.proto";
+/**
+ * 客户端发送进入房间
+ */
+message ClientEnterRoom{
+	int32 roomType = 1;
+	int32 roomId = 2;
+}
+
+/**
+ * 进入房间
+ */
+message EnterRoom{
+	PlayerSimpleInfo info = 1;
+}
+/**
+ * 房间玩家信息
+ */
+message RoomPlayerInfo{
+	/**玩家编号*/
+	int32 id = 1;
+	/**名称*/
+	string name = 2;
+	/**头像*/
+	string icon = 3;
+	/**vip积分*/
+	int32 vipPoints = 4;
+	/**总胜利场数*/
+	int32 winCount = 5;
+	/**总场次*/
+	int32 totleCount = 6;
+	/**座位号*/
+	int32 seatNumber = 7;
+	/**玩家状态*/
+	int32 state = 8;
+	/**已下注的金钱*/
+	int32 betGold = 9;
+	/**玩家所携带的资源 */
+	repeated Resources res = 10;
+	/**是否看牌 */
+	bool look = 11;
+	/**当前座驾 */
+	int32 car = 12;
+	/**性别*/
+	bool sex = 13;
+}
+/**
+ * 离开房间
+ */
+message LeaveRoom{
+	int32 playerId = 1;
+}
+/**
+ * 离开房间
+ */
+message ExitRoom{
+	int32 roomId = 1;
+
+}
+/**
+ * 聊天
+  */
+message ChatMessage{
+	string name = 1;
+	string message = 2;
+	int32 playerId = 3;
+}
+
+/**
+ *
+ * 匹配房间
+ */
+message MatchRoom{
+	/**玩家编号 */
+	int32 playerId = 1;
+	/**排除在外的房间编号*/
+	int32 roomId = 2;
+}
+
+/**
+ * 牌
+ */
+message Card{
+	int32 type = 1;
+	int32 points = 2;
+}
+/**
+ * 房间更新资源
+ */
+message RoomUpdateResource{
+	int32 playerId = 1;
+	Resources res = 2;
+}
+
+message RobotEnter{
+	int32 roomId = 1;
+}
+
+enum ForcedExitType{
+	/**小于最小金币 */
+	LESS_MIN_GOLD = 0;
+	/**大于最大金币 */
+	MORE_MAX_GOLD = 1;
+	/**太久不操作 */
+	DONOT_OPERATE = 2;
+	/**被踢出房间*/
+	KICK_OUT_PLAYER = 3;
+}
+
+message ForcedExitRoom{
+	ForcedExitType type = 1;
+}

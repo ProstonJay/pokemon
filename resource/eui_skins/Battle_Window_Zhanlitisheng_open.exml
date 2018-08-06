@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Battle_Window_Zhanlitisheng_openSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" >
+	<w:Config id="164f9878e62" ></w:Config>
+	<e:Group width="720" height="1280" x="0" y="0">
+			<e:Image source="duihuan_ditu_png" width="538.46" height="302" scaleX="1" scaleY="1" scale9Grid="57,50,50,60" anchorOffsetX="266.9" anchorOffsetY="150.63" verticalCenter="-141" horizontalCenter="0"/>
+		<eui:EffectButton label="" x="564.65" y="323.5" enabled="true">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="duihuan_guanbi_png" source.down="duihuan_guanbi_png" source.disabled="duihuan_guanbi_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<e:Image source="zhandou_zi_tishi_png" horizontalCenter="0" verticalCenter="-242.5"/>
+		<e:Image source="zhandou_zi_buzu_png" y="497.5" horizontalCenter="0"/>
+		<eui:EffectButton label="" x="128" enabled="true" verticalCenter="0">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zhandou_anniu_guanbi_png" source.down="zhandou_anniu_guanbi_png" source.disabled="zhandou_anniu_guanbi_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<eui:EffectButton label="" x="395" enabled="true" verticalCenter="0">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zhandou_anniu_goumai_png" source.down="zhandou_anniu_goumai_png" source.disabled="zhandou_anniu_goumai_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+	</e:Group>
+</e:Skin>

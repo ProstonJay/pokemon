@@ -1,0 +1,54 @@
+<e:Skin class="Hall_Window_VIP_OpenSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" >
+	<w:Config id="1650e77299d" ></w:Config>
+	<e:Group width="720" height="1280" x="0" y="0">
+		<e:Image source="duihuan_ditu_png" width="607.46" height="783.97" scaleX="1" scaleY="1" scale9Grid="57,50,50,60" anchorOffsetX="301.1" anchorOffsetY="391" verticalCenter="-102" horizontalCenter="-0.5"/>
+		<e:Image source="duihuan_biaoti_png" horizontalCenter="0" top="47" anchorOffsetX="212.12" anchorOffsetY="75.76"/>
+		<e:Image source="duihuan_ditu1_png" y="383" horizontalCenter="0.5"/>
+		<e:Image source="duihuan_ditu2_png" x="120" y="378"/>
+		<e:Image source="duihuan_ditu_wupin_png" x="132" y="391.98"/>
+		<e:Image source="vip_biaoti_png" x="233" y="106"/>
+		<e:Image source="vip_jiazai_xia_png" x="184" y="225" scale9Grid="24,8,97,17" anchorOffsetX="0" width="338"/>
+		<e:Image source="vip_jiazai_shang_png" x="184" y="224" scale9Grid="26,11,99,9" anchorOffsetX="0" width="290"/>
+		<e:Image source="vip_zi_vip_png" x="82.5" y="222"/>
+		<eui:EffectButton label="" x="127" y="170" enabled="true" anchorOffsetX="83" anchorOffsetY="53">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="vip_anniu_chongzhi_png" source.down="vip_anniu_chongzhi_png" source.disabled="vip_anniu_chongzhi_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<e:Image source="vip_zi_vip_png" x="516.75" y="222"/>
+		<e:Image source="vip_zi_1_png" y="277" horizontalCenter="-197.5"/>
+		<e:Image source="vip_zi_2_png" y="279" horizontalCenter="0"/>
+		<e:Image source="vip_zi_3_png" y="280" horizontalCenter="164.5"/>
+		<e:Image source="vip_zi_4_png" y="319" horizontalCenter="0"/>
+		<e:Image source="vip_zi_5_png" x="281.5" y="391.98"/>
+		<e:Image source="vip_zi_6_png" x="293" y="441.5"/>
+		<e:Image source="vip_zi_7_png" x="133" y="541.99"/>
+		<eui:EffectButton id="_CloseBtn" label="" y="853.96" enabled="true" horizontalCenter="0.5">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="vip_anniu_fanhui_png" source.down="vip_anniu_fanhui_png" source.disabled="vip_anniu_fanhui_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<eui:EffectButton label="" x="605.5" y="501" enabled="true">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="vip_anniu_fanye_png" source.down="vip_anniu_fanye_png" source.disabled="vip_anniu_fanye_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<eui:EffectButton label="" x="118" y="570" enabled="true" rotation="180">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="vip_anniu_fanye_png" source.down="vip_anniu_fanye_png" source.disabled="vip_anniu_fanye_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Battle_Window_ZhanlitishengSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" >
+	<w:Config id="164f589db43" ></w:Config>
+	<e:Group width="720" height="1280" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="zhandou_ditu_shengji_png" x="297.32" y="640" scale9Grid="15,13,18,18" anchorOffsetX="0" width="360.34" anchorOffsetY="0" height="78.33"/>
+		<e:Image source="zhandou_tubiao_zlts_png" x="608" y="640" width="85" height="78"/>
+		<e:Image source="zhandou_zi_tisheng_png" x="377" y="646"/>
+		<e:Image source="zhandou_zi_zuanshi_png" x="360" y="678.33"/>
+		<e:Image source="vip_jiazai_xia_png" x="414.5" y="679.17" scale9Grid="29,13,84,9" anchorOffsetX="0" width="194.66"/>
+		<e:Image source="vip_jiazai_shang_png" x="414.5" y="678.66" scale9Grid="27,11,87,11" anchorOffsetX="0" width="193.33"/>
+		<e:Image source="zhandou_zi_jiangli_png" x="371.16" y="676.33" visible="false"/>
+		<eui:EffectButton label="" x="300.32" y="638" enabled="true">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zhandou_nengliangqiu_png" source.down="zhandou_nengliangqiu_png" source.disabled="zhandou_nengliangqiu_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+	</e:Group>
+</e:Skin>

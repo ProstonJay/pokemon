@@ -1,0 +1,161 @@
+{
+    "164cc2047a0": {
+        "path": "..\\resource\\eui_skins\\Button.ts",
+        "class": "Button",
+        "parentPath": "resource/eui_skins/ButtonSkin.exml"
+    },
+    "164cc252453": {
+        "path": "domain\\common\\Button.ts",
+        "class": "Button",
+        "parentPath": "resource/eui_skins/ButtonSkin.exml"
+    },
+    "164e9e69f34": {
+        "path": "domain\\common\\MyBtn.ts",
+        "class": "MyBtn",
+        "parentPath": "resource/eui_skins/ButtonSkin.exml"
+    },
+    "164ea6a169a": {
+        "path": "domain\\common\\EffectButton.ts",
+        "class": "EffectButton",
+        "parentPath": "resource/eui_skins/ButtonSkin.exml"
+    },
+    "164ea83a91a": {
+        "path": "game\\sence\\battle\\battle_window\\Battle_window_TuJian.ts",
+        "class": "Battle_window_TuJian",
+        "parentPath": ""
+    },
+    "164eaae3149": {
+        "path": "domain\\common\\ComWin.ts",
+        "class": "ComWin",
+        "parentPath": ""
+    },
+    "global": {
+        "globalAutoLayerMarkEnable": false,
+        "globalAdsorbEnable": true
+    },
+    "164eb1ed3c1": {
+        "path": "game\\sence\\battle\\battle_window\\Battle_Window_Tujian_Good.ts",
+        "class": "Battle_Window_Tujian_Good",
+        "parentPath": "resource/eui_skins/ItemRendererSkin.exml"
+    },
+    "164eb6659ae": {
+        "path": "game\\sence\\battle\\battle_ui\\Battle.ts",
+        "class": "Battle",
+        "parentPath": ""
+    },
+    "164eb693412": {
+        "path": "game\\sence\\battle\\battle_ui\\Battle_Ui.ts",
+        "class": "Battle_Ui",
+        "parentPath": ""
+    },
+    "164f01133d8": {
+        "path": "game\\sence\\battle\\battle_window\\Battle_Window_Duihuan.ts",
+        "class": "Battle_Window_Duihuan",
+        "parentPath": ""
+    },
+    "164f01814f7": {
+        "path": "game\\sence\\battle\\battle_window\\Battle_Window_Duihuan_JP.ts",
+        "class": "Battle_Window_Duihuan_JP",
+        "parentPath": ""
+    },
+    "164f01b840b": {
+        "path": "game\\sence\\battle\\battle_window\\Battle_Window_Duihuan_Adress.ts",
+        "class": "Battle_Window_Duihuan_Adress",
+        "parentPath": ""
+    },
+    "164f4550da1": {
+        "path": "..\\resource\\eui_skins\\ScrollerSkin.ts",
+        "class": "ScrollerSkin",
+        "parentPath": "resource/eui_skins/ScrollerSkin.exml"
+    },
+    "164f56c9175": {
+        "path": "game\\sence\\battle\\battle_window\\Battle_Window_Onlie.ts",
+        "class": "Battle_Window_Onlie",
+        "parentPath": ""
+    },
+    "1650df1138b": {
+        "path": "game\\module\\battle\\battle_window\\Battle_Window_Bag.ts",
+        "class": "Battle_Window_Bag",
+        "parentPath": ""
+    },
+    "1650e097570": {
+        "path": "game\\module\\battle\\battle_window\\Battle_Window_ Ranking.ts",
+        "class": "Battle_Window_ Ranking",
+        "parentPath": ""
+    },
+    "1650e0a433a": {
+        "path": "game\\module\\battle\\battle_window\\Battle_Window_Ranking.ts",
+        "class": "Battle_Window_Ranking",
+        "parentPath": ""
+    },
+    "1650e49f07e": {
+        "path": "game\\module\\hall\\Hall_Window_Email.ts",
+        "class": "Hall_Window_Email",
+        "parentPath": ""
+    },
+    "1650e54aec9": {
+        "path": "game\\module\\hall\\Hall_Window_Email_Open.ts",
+        "class": "Hall_Window_Email_Open",
+        "parentPath": ""
+    },
+    "1650e57b0e5": {
+        "path": "game\\module\\hall\\Hall_Window_Bag.ts",
+        "class": "Hall_Window_Bag",
+        "parentPath": ""
+    },
+    "1650e61f156": {
+        "path": "game\\module\\hall\\Hall_Window_Shop.ts",
+        "class": "Hall_Window_Shop",
+        "parentPath": ""
+    },
+    "1650e6edd21": {
+        "path": "game\\module\\hall\\Hall_Window_Rank.ts",
+        "class": "Hall_Window_Rank",
+        "parentPath": ""
+    },
+    "1650e737d65": {
+        "path": "game\\module\\hall\\Hall_Window_Vip.ts",
+        "class": "Hall_Window_Vip",
+        "parentPath": ""
+    },
+    "1650e77299d": {
+        "path": "game\\module\\hall\\Hall_Window_Vip_Open.ts",
+        "class": "Hall_Window_Vip_Open",
+        "parentPath": ""
+    },
+    "1650e79d925": {
+        "path": "game\\module\\hall\\Hall_Window_Shouchong.ts",
+        "class": "Hall_Window_Shouchong",
+        "parentPath": ""
+    },
+    "1650e810af5": {
+        "path": "game\\module\\hall\\Hall_Window_Guizu.ts",
+        "class": "Hall_Window_Guizu",
+        "parentPath": ""
+    },
+    "1650ef1a994": {
+        "path": "game\\module\\hall\\Hall_Window_Bag_Good.ts",
+        "class": "Hall_Window_Bag_Good",
+        "parentPath": ""
+    },
+    "1650f11f3a0": {
+        "path": "game\\module\\hall\\Hall_Window_Rank_Good.ts",
+        "class": "Hall_Window_Rank_Good",
+        "parentPath": "resource/eui_skins/ItemRendererSkin.exml"
+    },
+    "1650fb75ed9": {
+        "path": "game\\module\\hall\\Hall_Window_Rank_Good.ts",
+        "class": "Hall_Window_Rank_Good",
+        "parentPath": "resource/eui_skins/ItemRendererSkin.exml"
+    },
+    "1650fb973bc": {
+        "path": "game\\module\\hall\\Hall_Window_Rank_Good.ts",
+        "class": "Hall_Window_Rank_Good",
+        "parentPath": "resource/eui_skins/ItemRendererSkin.exml"
+    },
+    "1650ff29636": {
+        "path": "game\\module\\hall\\Hall_Window_Rank_Good.ts",
+        "class": "Hall_Window_Rank_Good",
+        "parentPath": "resource/eui_skins/ItemRendererSkin.exml"
+    }
+}

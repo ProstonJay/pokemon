@@ -1,0 +1,28 @@
+<e:Skin class="Battle_Window_Duihuan_AdressSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" >
+	<w:Config id="164f01b840b" ></w:Config>
+	<e:Group width="720" height="1280" x="0" y="0">
+			<e:Image source="duihuan_ditu_png" width="607.46" height="729.3" scaleX="1" scaleY="1" scale9Grid="57,50,50,60" anchorOffsetX="301.1" anchorOffsetY="363.75" verticalCenter="-35.5" horizontalCenter="-0.5"/>
+		<e:Image source="duihuan_ditu1_png" y="606.17" scale9Grid="25,14,407,76" anchorOffsetX="283.54" width="551" anchorOffsetY="339.5" height="681.33" horizontalCenter="0.5"/>
+		<eui:EffectButton id="_SaveBtn" label="" y="881.5" enabled="true" horizontalCenter="0" anchorOffsetX="107" anchorOffsetY="48">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="duihuan_anniu_baocun_png" source.down="duihuan_anniu_baocun_png" source.disabled="duihuan_anniu_baocun_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<e:Image source="duihuan_zi9_png" x="109.73" y="442.83"/>
+		<e:Image source="duihuan_ditu_kuang2_png" x="262" y="460.66" scale9Grid="8,8,33,32" anchorOffsetX="0" width="205" anchorOffsetY="0" height="50.34"/>
+		<e:Image source="duihuan_ditu_kuang2_png" x="262" y="539.36" scale9Grid="8,8,33,32" anchorOffsetX="0" width="205" anchorOffsetY="0" height="50.34"/>
+		<e:Image source="duihuan_ditu_kuang2_png" x="259.83" y="614.16" scale9Grid="8,8,33,32" anchorOffsetX="0" width="321.01" anchorOffsetY="0" height="195.67"/>
+		<e:Image source="duihuan_zi10_png" x="167" y="275.99"/>
+		<eui:EffectButton id="_CloseBtn" label="" x="641.65" y="260.34" enabled="true" anchorOffsetX="42" anchorOffsetY="42">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="duihuan_guanbi_png" source.down="duihuan_guanbi_png" source.disabled="duihuan_guanbi_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Battle_UiSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" >
+	<w:Config id="164eb693412" ></w:Config>
+	<e:Group id="_group" width="100%" x="0" height="100%" y="0">
+		<e:Image id="_roomBg" source="Battle_Ui_json.zhandou_renshu_beijing" x="13" y="115" scaleX="1" scaleY="1"/>
+		<eui:EffectButton id="_backBtn" label="" enabled="true" top="0" anchorOffsetX="36" anchorOffsetY="36" y="0" scaleX="1" scaleY="1" left="0">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="Battle_Ui_json.zhandou_fanhui" source.down="Battle_Ui_json.zhandou_fanhui" source.disabled="Battle_Ui_json.zhandou_fanhui"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<e:Image source="Battle_Ui_json.zhandou_jinbi_kuang" x="74" y="14.5" anchorOffsetX="0" width="270" scaleX="1" scaleY="1"/>
+		<e:Image source="Battle_Ui_json.zhandou_jinbi" x="74" y="14.5" scaleX="1" scaleY="1"/>
+		<eui:EffectButton id="_addGoldBtn" label="" x="324" y="36.5" enabled="true" anchorOffsetX="22" anchorOffsetY="22" scaleX="1" scaleY="1">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="Battle_Ui_json.zhandou_jinbi_jiahao" source.down="Battle_Ui_json.zhandou_jinbi_jiahao" source.disabled="Battle_Ui_json.zhandou_jinbi_jiahao"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<e:Image source="Battle_Ui_json.zhandou_renshu_dikuang" x="4" y="72" scaleX="1" scaleY="1"/>
+		<e:Image source="Battle_Ui_json.zhandou_renshu" x="74" y="90" scaleX="1" scaleY="1"/>
+		<e:Image source="Battle_Ui_json.zhandou_xiaoditu" right="0" top="0" x="519" y="0" scaleX="1" scaleY="1"/>
+		<eui:EffectButton id="_tjBtn" label="" x="580" y="214.5" enabled="true" anchorOffsetX="33" anchorOffsetY="34">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="Battle_Ui_json.zhandou_tubiao_tujian" source.down="Battle_Ui_json.zhandou_tubiao_tujian" source.disabled="Battle_Ui_json.zhandou_tubiao_tujian"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<eui:EffectButton id="_activeKey" label="" x="668.5" y="216" enabled="true" width="61" height="61" anchorOffsetX="31" anchorOffsetY="31">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="Battle_Ui_json.zhandou_tubiao_zhankai" source.down="Battle_Ui_json.zhandou_tubiao_zhankai" source.disabled="Battle_Ui_json.zhandou_tubiao_zhankai"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<eui:EffectButton id="_onlieBtn" label="" y="318.5" enabled="true" anchorOffsetX="48" anchorOffsetY="47" scaleX="1" scaleY="1" x="674">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="Battle_Ui_json.zhandou_tubiao_zxlb" source.down="Battle_Ui_json.zhandou_tubiao_zxlb" source.disabled="Battle_Ui_json.zhandou_tubiao_zxlb"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<eui:EffectButton id="_dhBtn" label="" y="434" enabled="true" anchorOffsetX="44" anchorOffsetY="51" scaleX="1" scaleY="1" x="671">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="Battle_Ui_json.zhandou_tubiao_dhzx" source.down="Battle_Ui_json.zhandou_tubiao_dhzx" source.disabled="Battle_Ui_json.zhandou_tubiao_dhzx"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<eui:EffectButton id="_gjBtn" label="" x="676.32" y="545.33" enabled="true" anchorOffsetX="56.82" anchorOffsetY="44.33" width="105" height="91">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="Battle_Ui_json.zhandou_tubiao_zlts" source.down="Battle_Ui_json.zhandou_tubiao_zlts" source.disabled="Battle_Ui_json.zhandou_tubiao_zlts"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<e:Image source="Battle_Ui_json.zhandou_zhanlizhi_ditu" anchorOffsetX="0" left="0" width="321" x="0" scaleX="1" scaleY="1" bottom="0"/>
+		<eui:EffectButton id="_autoBtn" label="" x="416.5" enabled="true" anchorOffsetX="103" anchorOffsetY="46" scaleX="1" scaleY="1" bottom="0">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="Battle_Ui_json.zhandou_zhandou_zidong" source.down="Battle_Ui_json.zhandou_zhandou_zidong" source.disabled="Battle_Ui_json.zhandou_zhandou_zidong"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<eui:EffectButton id="_speedBtn" label="" x="617.5" enabled="true" anchorOffsetX="105" anchorOffsetY="47" scaleX="1" scaleY="1" bottom="0">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="Battle_Ui_json.zhandou_zhandou_ditu" source.down="Battle_Ui_json.zhandou_zhandou_ditu" source.disabled="禁用状态资源名Battle_Ui_json.zhandou_zhandou_ditu"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<e:Image source="Battle_Ui_json.zhandou_zhanlizhi_ditu1" x="123" scaleX="1" scaleY="1" bottom="16"/>
+		<eui:EffectButton id="_skill2" label="" x="554.5" enabled="true" anchorOffsetX="39" anchorOffsetY="42" scaleX="1" scaleY="1" bottom="103">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="Battle_Ui_json.zhandou_jineng_5" source.down="Battle_Ui_json.zhandou_jineng_5" source.disabled="Battle_Ui_json.zhandou_jineng_5"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<eui:EffectButton id="_skill3" label="" x="442.5" enabled="true" anchorOffsetX="42" anchorOffsetY="39" scaleX="1" scaleY="1" bottom="100">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="Battle_Ui_json.zhandou_jineng_6" source.down="Battle_Ui_json.zhandou_jineng_6" source.disabled="Battle_Ui_json.zhandou_jineng_6"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<eui:EffectButton id="_skill1" label="" x="662.5" enabled="true" anchorOffsetX="39" anchorOffsetY="42" scaleX="1" scaleY="1" bottom="103">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="Battle_Ui_json.zhandou_jineng_3" source.down="Battle_Ui_json.zhandou_jineng_3" source.disabled="Battle_Ui_json.zhandou_jineng_3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<e:Image source="Battle_Ui_json.zhandou_zhanlizhi" x="28" scaleX="1" scaleY="1" bottom="22"/>
+		<eui:EffectButton id="_addPowBtn" label="" x="273.5" width="53" height="48" enabled="true" anchorOffsetX="27" anchorOffsetY="25" scaleX="1" scaleY="1" bottom="18">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="Battle_Ui_json.zhandou_zhanlizhi_jia" source.down="Battle_Ui_json.zhandou_zhanlizhi_jia" source.disabled="Battle_Ui_json.zhandou_zhanlizhi_jia"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<eui:EffectButton id="_redPowBtn" label="" x="144" enabled="true" anchorOffsetX="26" anchorOffsetY="25" scaleX="1" scaleY="1" bottom="18">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="Battle_Ui_json.zhandou_zhanlizhi_jian" source.down="Battle_Ui_json.zhandou_zhanlizhi_jian" source.disabled="Battle_Ui_json.zhandou_zhanlizhi_jian"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<eui:EffectButton id="_roomKey" label="" x="273" y="102" enabled="true" anchorOffsetX="20" anchorOffsetY="22" scaleX="1" scaleY="1" width="40" height="40">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="Battle_Ui_json.zhandou_renshu_shenzhan" source.down="Battle_Ui_json.zhandou_renshu_shenzhan" source.disabled="禁用状态Battle_Ui_json.zhandou_renshu_shenzhan资源名"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<e:BitmapLabel id="_GoldTT" width="188" height="36" x="117" y="18" anchorOffsetX="0" text="" font="number_fnt" verticalAlign="middle" textAlign="center" anchorOffsetY="0"/>
+		<e:BitmapLabel id="_PowerTT" width="90" height="37" x="166" anchorOffsetY="0" verticalAlign="middle" textAlign="center" font="number_fnt" bottom="22"/>
+		<e:BitmapLabel id="_PnumTT" width="50" height="25" x="191.5" y="92.5" anchorOffsetY="0" font="number_fnt" verticalAlign="middle" textAlign="center"/>
+		<e:BitmapLabel id="_SpedTT" width="136" height="41" x="551.5" font="number_fnt" anchorOffsetY="0" anchorOffsetX="0" verticalAlign="middle" textAlign="center" bottom="24"/>
+		<e:BitmapLabel id="_dhTimeTT" width="102" height="25" y="253.5" textAlign="center" verticalAlign="middle" anchorOffsetX="0" font="number_fnt" scaleX="1" scaleY="1" anchorOffsetY="0" text="" right="0"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

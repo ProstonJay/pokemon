@@ -1,0 +1,10 @@
+syntax = "proto3";
+package com.aoo.chess.comms.protocol.proto.message;
+option java_outer_classname = "MallMessage";
+message PlayerMallInfo{
+	int32 mallId = 1;
+	int32 buyCount = 2;
+}
+message PlayerMallInfoList{
+	repeated PlayerMallInfo infos = 1;
+}

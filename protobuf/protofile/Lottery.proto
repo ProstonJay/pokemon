@@ -1,0 +1,80 @@
+syntax = "proto3";
+package com.aoo.chess.comms.protocol.proto.message;
+option java_outer_classname = "LotteryMessage";
+import "RoomMessage.proto";
+/**
+ * 彩票信息
+ */
+message LotteryInfo{
+	map<int32,int32> myBetCounts = 1;//自己每個牌型押注的注数
+	HistoryInfo historyInfo = 2;//历史记录
+	BetInfo betInfo = 3;//压注的信息
+	int32 state = 4;//当前状态
+	int64 time = 5;
+}
+
+message BetInfo{
+	map<int32,int32> betCounts = 1;//每個牌型押注的注数
+	int32 betPlayers = 2;//投注人数
+}
+
+
+message lotteryAward{
+	HistoryInfo info = 1;
+	int64 time = 2;
+	repeated int32 players = 3;//参与的玩家
+}
+
+/**
+ * 开牌
+ */
+message OpenCardInfo{
+	LotteryCard card = 1;
+}
+
+/**
+ * 彩票历史记录
+ */
+message HistoryInfo{
+	repeated int32 history = 1;//历史开奖记录
+	LotteryCard card = 2;//上一期开奖的牌型
+	int64 gold = 3;//上期发放总额
+}
+/**
+ * 彩票牌型
+ */
+message LotteryCard{
+	int32 cardType = 1;
+	repeated Card cards = 2;
+}
+
+message LotteryBet{
+	int32 cardType = 1;
+	int32 count = 2;
+}
+message PlayerBet{
+	int32 playerId = 1;
+	LotteryBet bet = 2;
+}
+/**
+ * 玩家奖励
+ */
+message PlayerAward{
+	int32 cardType = 1;//类型
+	int64 gold = 2;//奖励金额
+}
+
+message BetStar{
+	int64 time = 1;
+}
+
+message GainServerLotteryInfo{
+
+}
+
+message ServerLotteryInfo{
+	int32 state = 1;
+	int64 time = 2;
+	BetInfo betInfo = 3;
+	HistoryInfo historyInfo = 4;
+}

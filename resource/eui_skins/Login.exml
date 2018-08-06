@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoginSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:eui="eui.*" >
+	<w:Config id="164cbac8a32" ></w:Config>
+	<e:Group width="100%" height="100%" x="0" y="0">
+		<e:Image source="denglu_beijing_jpg" scaleX="1" scaleY="1" width="100%" height="100%" y="0" x="0"/>
+		<e:Image source="denglu_zi_png" width="720" scaleX="1" scaleY="1" x="0" bottom="0"/>
+		<eui:EffectButton id="_EnterBtn" label="" scaleX="1" scaleY="1" bottom="208" horizontalCenter="0">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="denglu_kaishi_png" source.down="denglu_kaishi_png" source.disabled="denglu_kaishi_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<eui:EffectButton id="_VersionBtn" label="Ver.1.0.0.1" enabled="true" anchorOffsetX="89.66" anchorOffsetY="29" top="12" left="20" width="180">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="shop_kuang3_png" source.down="shop_kuang3_png" source.disabled="shop_kuang3_png" scale9Grid="15,17,25,24"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<e:Image id="_VerBgImg" source="duihuan_ditu3_png" y="76.91" scale9Grid="55,50,52,61" anchorOffsetX="0" width="593.81" anchorOffsetY="0" height="367.07" horizontalCenter="0"/>
+		<eui:EffectButton id="_CloseVerBtn" label="" x="636.31" y="91" enabled="true" anchorOffsetX="40.91" anchorOffsetY="40.91">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="duihuan_guanbi2_png" source.down="duihuan_guanbi2_png" source.disabled="duihuan_guanbi2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<e:Label id="_VerTT" text="版本信息" y="128.78" anchorOffsetX="0" width="502.79" anchorOffsetY="0" height="266.36" horizontalCenter="0.5" fontFamily="SimHei" textColor="0xa1ef10" textAlign="left"/>
+	</e:Group>
+</e:Skin>

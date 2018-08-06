@@ -1,0 +1,54 @@
+syntax = "proto3";
+package com.aoo.chess.comms.protocol.proto.message;
+option java_outer_classname = "LongHuDouMessage";
+import "RoomMessage.proto";
+message LongHuDouRoomInfo{
+	int32 playerSize = 1;
+	int32 state = 2;
+	repeated LongHuDouBetInfo infos = 3;
+	LongHuDouBetInfo myBetInfo = 4;
+	repeated RoomPlayerInfo ranks = 5;
+	repeated int32 history = 6;
+	int32 time = 7;
+	repeated Card cards = 8;
+}
+
+message LongHuDouRankUpdate{
+	repeated RoomPlayerInfo ranks = 5;
+}
+
+message LongHuDouBetInfo{
+	int32 type = 2;
+	int64 gold = 3;
+}
+
+message LongHuDouBet{
+	int32 playerId = 1;
+	LongHuDouBetInfo info = 2;
+}
+
+message LongHuDouBetStar{
+
+}
+
+message LongHuDouEnd{
+	string icon = 1;
+	string name = 2;
+	int64 gold = 3;
+	repeated Card cards = 4;
+	repeated RankSettlement rankSettlements = 5;
+}
+
+message RankSettlement{
+	int32 playerId = 1;
+	sint64 gold = 2;
+}
+
+message LongHuDouAward{
+	int32 type = 1;
+	int64 gold = 2;
+	int64 profit = 3;
+}
+message GainLongHuDouRoomInfo{
+	int32 playerId = 1;
+}

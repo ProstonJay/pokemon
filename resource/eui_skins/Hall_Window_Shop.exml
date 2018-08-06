@@ -1,0 +1,61 @@
+<e:Skin class="Hall_Window_ShopSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" >
+	<w:Config id="1650e61f156" ></w:Config>
+	<e:Group width="720" height="1280" x="0" y="0">
+		<e:Image source="duihuan_ditu_png" width="607.46" height="954.97" scaleX="1" scaleY="1" scale9Grid="57,50,50,60" anchorOffsetX="301.1" anchorOffsetY="476.29" verticalCenter="34.5" horizontalCenter="-0.5"/>
+		<eui:EffectButton id="_goldBtn" label="" x="171.5" y="388" enabled="true" anchorOffsetX="72" anchorOffsetY="28">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="shop_anniu_lv_png" source.down="shop_anniu_lv_png" source.disabled="shop_anniu_lv_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<eui:EffectButton id="_dmBtn" label="" x="313.85" y="387" enabled="true" anchorOffsetX="72" anchorOffsetY="27">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="shop_anniu_hui_png" source.down="shop_anniu_hui_png" source.disabled="shop_anniu_hui_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<e:Image source="tujian_ditu1_png" y="408.87" anchorOffsetY="0" horizontalCenter="0.5" height="712.66" scale9Grid="172,178,195,209"/>
+		<e:Image source="duihuan_biaoti_png" horizontalCenter="0" top="104" anchorOffsetX="212.12" anchorOffsetY="75.76"/>
+		<eui:EffectButton id="_CloseBtn" label="" x="641.64" y="206.91" enabled="true" anchorOffsetX="40.91" anchorOffsetY="40.91">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="duihuan_guanbi_png" source.down="duihuan_guanbi_png" source.disabled="duihuan_guanbi_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<e:Image source="vip_jiazai_shang_png" x="184" y="266" scale9Grid="26,11,99,9" anchorOffsetX="0" width="290"/>
+		<e:Image source="vip_zi_vip_png" x="82.5" y="264"/>
+		<e:Image source="vip_zi_vip_png" x="516.75" y="264"/>
+		<e:Image source="vip_zi_1_png" y="313" horizontalCenter="-197.5"/>
+		<e:Image source="vip_zi_2_png" y="315" horizontalCenter="0.5"/>
+		<e:Image source="vip_zi_3_png" y="315" horizontalCenter="164.5"/>
+		<e:Image source="shop_biaoti_png" y="71" horizontalCenter="0"/>
+		<eui:EffectButton label="" x="554.25" y="305.5" enabled="true">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="shop_chakantequan_png" source.down="shop_chakantequan_png" source.disabled="shop_chakantequan_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<e:Scroller width="523" height="671" x="95" y="444" anchorOffsetX="0" anchorOffsetY="0" enabled="true">
+			<e:List id="_list0" width="275" anchorOffsetY="0" height="673">
+			<e:layout>
+				<e:TileLayout orientation="rows" horizontalAlign="center" verticalAlign="middle" horizontalGap="20" verticalGap="20" paddingLeft="10"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller width="523" height="670" x="95" y="444" anchorOffsetX="0" anchorOffsetY="0" enabled="true">
+			<e:List id="_list1" width="275" anchorOffsetY="0" height="669">
+			<e:layout>
+				<e:TileLayout orientation="rows" horizontalAlign="center" verticalAlign="middle" horizontalGap="20" verticalGap="20" paddingLeft="10"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

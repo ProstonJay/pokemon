@@ -1,0 +1,50 @@
+syntax = "proto3";
+package com.aoo.chess.comms.protocol.proto.message;
+option java_outer_classname = "BrZhajinhuaMessage";
+import "RoomMessage.proto";
+import "ZhajinhuaMessage.proto";
+import "LongHuDouMessage.proto";
+
+message BrZhajinhuaRoomInfo{
+	int32 playerSize = 1;
+	int32 state = 2;
+	repeated BrZhajinhuaBetInfo infos = 3;
+	repeated BrZhajinhuaBetInfo myBetInfo = 4;
+	repeated RoomPlayerInfo ranks = 5;
+	repeated BrZhajinhuaHistoryInfo historyInofs = 6;
+	int32 time = 7;
+	repeated ZhajinhuaCards cards = 8;
+}
+
+message BrZhajinhuaRankUpdate{
+	repeated RoomPlayerInfo ranks = 5;
+}
+
+message BrZhajinhuaHistoryInfo{
+	repeated bool win = 1;
+}
+
+message BrZhajinhuaBetInfo{
+	int32 type = 2;
+	int64 gold = 3;
+}
+
+message BrZhajinhuaBet{
+	int32 playerId = 1;
+	BrZhajinhuaBetInfo info = 2;
+}
+
+message BrcAward{
+	int64 gold = 1;
+	sint64 winOrLostGold = 2;
+}
+
+message BrZhajinhuaEnd{
+	sint64 gold = 1;
+	repeated ZhajinhuaCards cards = 2;
+	repeated RankSettlement rankSettlements = 3;
+	repeated bool results = 4;
+}
+message GainBrZhajinhuaRoomInfo{
+	int32 playerId = 1;
+}

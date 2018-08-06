@@ -1,0 +1,46 @@
+{"mc":{
+	"Select_mc":{
+		"frameRate":8,
+		"labels":[
+			{"name":"go","frame":1,"end":5}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"jiaodiguangqun_1",
+			"x":-38,
+			"y":-25
+			},
+			{
+			"res":"jiaodiguangqun_2",
+			"x":-37,
+			"y":-22
+			},
+			{
+			"res":"jiaodiguangqun_3",
+			"x":-41,
+			"y":-28
+			},
+			{
+			"res":"jiaodiguangqun_4",
+			"x":-43,
+			"y":-29
+			},
+			{
+			"res":"jiaodiguangqun_5",
+			"x":-40,
+			"y":-27
+			}
+			]
+}},
+	"res":{
+		"jiaodiguangqun_3":{"x":1,"y":60,"w":83,"h":57},
+		"jiaodiguangqun_4":{"x":1,"y":1,"w":85,"h":58},
+		"jiaodiguangqun_5":{"x":85,"y":60,"w":83,"h":54},
+		"jiaodiguangqun_2":{"x":87,"y":1,"w":75,"h":49},
+		"jiaodiguangqun_1":{"x":169,"y":60,"w":78,"h":55}
+	}}

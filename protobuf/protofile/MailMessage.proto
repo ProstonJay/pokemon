@@ -1,0 +1,26 @@
+syntax = "proto3";
+package com.aoo.chess.comms.protocol.proto.message;
+option java_outer_classname = "MailMessage";
+
+message PlayerMail{
+	int32 id = 1;
+	string title = 2;
+	string context = 3;
+	string attach = 4;
+	int32 state = 5;
+	int64 createTime = 6;
+}
+
+message MailList{
+	repeated PlayerMail mails = 1;
+}
+
+message SendMailMessage{
+	repeated int32 players = 1;
+	string title = 2;
+	string context = 3;
+	string attack = 4;
+}
+message DeleteMail{
+	repeated int32 mailIds = 1;
+}

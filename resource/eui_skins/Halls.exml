@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HallsSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" >
+	<w:Config id="164cb1fecd1" ></w:Config>
+	<e:Group id="_group" width="100%" height="100%" x="0" y="0">
+		<e:Image id="bg" height="100%" left="0" source="dating_ditu_png" x="0" y="0" scaleX="1" scaleY="1" width="100%"/>
+		<e:Button label="" x="26" y="124" enabled="false" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hall_ui_json.dating_jianzhu_1" source.down="hall_ui_json.dating_jianzhu_1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button label="" x="113.5" y="903" enabled="false" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hall_ui_json.dating_jianzhu_5" source.down="hall_ui_json.dating_jianzhu_5"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button label="" x="482" y="309" enabled="false" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hall_ui_json.dating_jianzhu_2" source.down="hall_ui_json.dating_jianzhu_2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_BattleBtn" label="" x="26" y="640" enabled="true" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hall_ui_json.dating_jianzhu_3" source.down="hall_ui_json.dating_jianzhu_3"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_PkBtn" label="" x="426" y="567" enabled="true" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hall_ui_json.dating_jianzhu_4" source.down="hall_ui_json.dating_jianzhu_4"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="hall_ui_json.dating_shang_dikuang" height="89" left="0" top="0" right="0" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image height="150" y="0" source="hall_ui_json.dating_touxiangkuang" left="0" width="155" x="0" scaleX="1" scaleY="1"/>
+		<e:Image width="177" height="54" x="531" y="12" source="hall_ui_json.dating_mingchengkuang" scaleX="1" scaleY="1"/>
+		<e:Image width="177" height="54" x="343" y="12" source="hall_ui_json.dating_mingchengkuang" scaleX="1" scaleY="1"/>
+		<e:Image width="177" height="54" x="155" y="12" source="hall_ui_json.dating_mingchengkuang" scaleX="1" scaleY="1"/>
+		<e:Image width="45" height="45" x="343" y="16.5" source="hall_ui_json.dating_jinbi" scaleX="1" scaleY="1"/>
+		<e:Image width="45" height="45" x="531" y="14" source="hall_ui_json.dating_zuanshi" scaleX="1" scaleY="1"/>
+		<e:Button id="_BuyGoldBtn" label="" x="470" y="12" width="46" height="46" enabled="true" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hall_ui_json.dating_jiahao" source.down="hall_ui_json.dating_jiahao"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_BuyDmBtn" label="" x="658" y="14" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hall_ui_json.dating_jiahao" source.down="hall_ui_json.dating_jiahao"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image height="111" source="hall_ui_json.dating_xia_beijingtiao" x="0" scaleX="1" scaleY="1" width="720" bottom="0"/>
+		<eui:EffectButton id="_RoleBtn" label="" x="58" enabled="true" anchorOffsetX="59" anchorOffsetY="58" scaleX="1" scaleY="1" bottom="11">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hall_ui_json.dating_xia_jiaose" source.down="hall_ui_json.dating_xia_jiaose" source.disabled="hall_ui_json.dating_xia_jiaose"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<e:Image width="570" height="58" x="150" y="78" source="hall_ui_json.dating_labatiao" scale9Grid="21,19,21,22" scaleX="1" scaleY="1"/>
+		<e:Button id="_CjBtn" label="" y="140.5" right="0" x="619" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hall_ui_json.dating_shang_choujiang" source.down="hall_ui_json.dating_shang_choujiang"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_HbBen" label="" y="140.5" x="516" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hall_ui_json.dating_shang_fxhb" source.down="hall_ui_json.dating_shang_fxhb"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_QdBtn" label="" y="140.5" x="415" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hall_ui_json.dating_shang_qiandao" source.down="hall_ui_json.dating_shang_fxhb"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_YkBtn" label="" y="140.5" x="318" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hall_ui_json.dating_shang_yklb" source.down="hall_ui_json.dating_shang_yklb"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_NewbBtn" label="" y="140.5" x="217" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hall_ui_json.dating_shang_xshd" source.down="hall_ui_json.dating_shang_xshd"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_VipBtn" label="" y="247.5" x="619" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hall_ui_json.dating_shang_viptq" source.down="hall_ui_json.dating_shang_viptq"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="_Icon" width="129" height="131" x="13" y="5" scaleX="1" scaleY="1" source="hall_ui_json.dating_touxiang_nv"/>
+		<eui:EffectButton id="_BagBtn" label="" x="177" enabled="true" anchorOffsetX="59" anchorOffsetY="59" scaleX="1" scaleY="1" bottom="12">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hall_ui_json.dating_xia_beibao" source.down="hall_ui_json.dating_xia_beibao" source.disabled="hall_ui_json.dating_xia_beibao"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<eui:EffectButton id="_TratBtn" label="" x="295" anchorOffsetX="59" anchorOffsetY="60" scaleX="1" scaleY="1" bottom="13">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hall_ui_json.dating_xia_duihuan" source.down="hall_ui_json.dating_xia_duihuan" source.disabled="hall_ui_json.dating_xia_duihuan"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<eui:EffectButton id="_RankBtn" label="" x="417" enabled="true" anchorOffsetX="58" anchorOffsetY="58" scaleX="1" scaleY="1" bottom="11">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hall_ui_json.dating_xia_paihangbang" source.down="hall_ui_json.dating_xia_paihangbang" source.disabled="hall_ui_json.dating_xia_paihangbang"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<eui:EffectButton id="_MailBtn" label="" x="540" enabled="true" anchorOffsetX="60" anchorOffsetY="57" scaleX="1" scaleY="1" bottom="9">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hall_ui_json.dating_xia_youjian" source.down="hall_ui_json.dating_xia_youjian" source.disabled="hall_ui_json.dating_xia_youjian"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<eui:EffectButton id="_SetBtn" label="" x="659" enabled="true" anchorOffsetX="58" anchorOffsetY="58" scaleX="1" scaleY="1" bottom="10">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hall_ui_json.dating_xia_shezhi" source.down="hall_ui_json.dating_xia_shezhi" source.disabled="hall_ui_json.dating_xia_shezhi"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<e:BitmapLabel width="71" height="29" x="589" y="25" font="number_fnt" text="40" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel width="92" height="29" x="386" y="22.5" font="number_fnt" text="900" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+		<e:Label id="_Name" text="沉鱼落雁" x="177" y="22" anchorOffsetX="0" width="138" size="24" fontFamily="SimHei" textAlign="center" anchorOffsetY="0" height="29" verticalAlign="middle" textColor="0x99f40c" scaleX="1" scaleY="1"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

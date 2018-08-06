@@ -1,0 +1,8 @@
+syntax = "proto3";
+package com.aoo.chess.comms.protocol.proto.message;
+option java_outer_classname = "ErrorCodeMessage";
+
+message ErrorCode{
+	int32 code = 1;
+	string description = 2;
+}

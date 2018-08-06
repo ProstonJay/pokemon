@@ -1,0 +1,161 @@
+syntax = "proto3";
+package com.aoo.chess.comms.protocol.proto.message;
+option java_outer_classname = "PlayerMessage";
+import "PropMessage.proto";
+
+/**
+ * 玩家信息
+ */
+message PlayerInfo{
+	/**玩家编号*/
+	int32 id=1;
+	/**名称*/
+	string name=2;
+	/**签名*/
+	string sign=3;
+	/**头像*/
+	string icon=4;
+	/**vip积分*/
+	int32 vipPoints=5;
+	/**资源 */
+	repeated Resources res = 6;
+	/**总胜利场数 */
+	int32 winCount = 7;
+	/**总场数 */
+	int32 totleCount = 8;
+	/**房間編號 */
+	int32 roomId = 9;
+	/**当前座驾 */
+	int32 car = 10;
+	/**道具*/
+	repeated Prop props = 11;
+	/**是否改过名字*/
+	bool modifyName = 12;
+	/**性別 */
+	bool sex = 13;
+}
+/**
+ * 玩家资源
+  */
+message Resources{
+	/**资源编号*/
+	int32 resourceId = 1;
+	/**资源编号*/
+	int64 val = 2;
+}
+
+message PlayerSimpleInfo{
+	/**编号 */
+	int32 id = 1;
+	/**名称*/
+	string name = 2;
+	/**头像 */
+	string icon = 3;
+	int32 vipPoints = 4;
+	/**资源 */
+	repeated Resources res = 5;
+	/**总胜利场数 */
+	int32 winCount = 6;
+	/**总场数 */
+	int32 totleCount = 7;
+	/**当前座驾 */
+	int32 car = 8;
+	bool sex = 9;
+}
+
+message ModifyPlayerInfo{
+	string name = 1;
+	string sign = 2;
+	bool sex = 3;
+}
+
+message GainOtherPlayerInfo{
+	int32 playerId = 1;
+}
+
+message OtherPlayerInfo{
+	/**玩家编号*/
+	int32 id=1;
+	/**名称*/
+	string name=2;
+	/**签名*/
+	string sign=3;
+	/**头像*/
+	string icon=4;
+	/**vip积分*/
+	int32 vipPoints=5;
+	/**资源 */
+	repeated Resources res = 6;
+	/**总胜利场数 */
+	int32 winCount = 7;
+	/**总场数 */
+	int32 totleCount = 8;
+	/**当前座驾 */
+	int32 car = 9;
+	/**道具*/
+	repeated Prop props = 10;
+	/**性別 */
+	bool sex = 11;
+}
+
+message PlayerOpt{
+	int32 optType = 1;
+	int32 playerId = 2;
+}
+
+message OffLinePlayer{
+
+}
+
+message ChangeSafeMoney{
+	int32 type = 1;
+	int32 gold = 2;
+}
+
+message PlayerStatMessage{
+	int32 kickOutCount = 1;
+}
+
+message GiftGiving{
+	int32 playerId = 1;
+	int32 givingPlayerId = 2;
+	int32 resourcesId = 3;
+}
+
+message DrawMoneyTreeResult{
+	int64 gold = 1;
+	int64 time = 2;
+}
+
+message ExchangeResource{
+	int32 resourceId = 1;
+	int32 num = 2;
+}
+
+message ReCustomerMsg{
+	int32 playerId = 1;
+	int64 id = 2;
+	string msg = 3;
+	int64 time = 4;
+}
+
+message CustomerMsgInfoList{
+	int64 lastSendTime = 1;
+	repeated CustomerMsgInfo infos = 2;
+}
+
+enum CustomerMsgType{
+	TYPE_PLAYER = 0;
+	TYPE_CUSTOMER = 1;
+}
+
+message CustomerMsgInfo{
+	CustomerMsgType type = 1;//编号
+	string msg = 2;//消息
+	int64 time = 4;//创建时间
+}
+
+message PlayerLoginAwardMessage{
+	int32 day = 1;//当前是第几天登陆
+	bool draw = 2;//是否领取
+}

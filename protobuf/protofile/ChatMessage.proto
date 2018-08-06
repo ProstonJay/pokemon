@@ -1,0 +1,38 @@
+syntax = "proto3";
+package com.aoo.chess.comms.protocol.proto.message;
+option java_outer_classname = "ChatMessage";
+
+message WorldChatMessage{
+	string playerName = 1;
+	string message = 2;
+	int32 playerId = 3;
+}
+
+enum RollType{
+	SYSTEM = 0;//系统消息
+	ROOM = 1;//房间中的消息
+	LOTTERY = 2;//彩票
+}
+
+message RollMessage{
+	RollType type = 1;
+	string message = 2;
+}
+message SendPriveteChatMessage{
+	int32 playerId = 1;
+	string message = 2;
+}
+
+message ServerPrivateChatMessage{
+	int32 playerId = 1;
+	PrivateChatMessage msg = 2;
+
+}
+
+message PrivateChatMessage{
+	int32 playerId = 1;
+	string name = 2;
+	string message = 3;
+	string icon = 4;
+	int32 vipPoints = 5;
+}

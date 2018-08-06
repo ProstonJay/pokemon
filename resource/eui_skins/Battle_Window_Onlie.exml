@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Battle_Window_OnlieSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="164f56c9175" ></w:Config>
+	<e:Image source="9ScaleBack_png" y="367" scale9Grid="18,18,114,114" width="250" height="250" alpha="1" anchorOffsetX="0" horizontalCenter="0"/>
+	<e:Image id="_LightImg" width="141.67" height="137" source="Qd_Imgae_Guang_png" verticalCenter="-148" scaleX="2" scaleY="2" horizontalCenter="-6.5" anchorOffsetX="70.31" anchorOffsetY="69"/>
+	<e:Image source="gd2_png" y="420" width="84" height="72" scaleX="2" scaleY="2" horizontalCenter="0"/>
+	<e:Image source="Qd_Imgae_Kuang_png" y="367.62" scale9Grid="21,24,33,28" anchorOffsetX="0" width="240" anchorOffsetY="0" height="240" horizontalCenter="0" visible="false"/>
+</e:Skin>

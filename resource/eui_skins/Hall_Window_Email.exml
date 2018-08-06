@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Hall_Window_EmailSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" >
+	<w:Config id="1650e49f07e" ></w:Config>
+	<e:Group width="720" height="1280" x="0" y="0">
+		<e:Image width="607.46" height="830.97" scaleX="1" scaleY="1" scale9Grid="57,50,50,60" anchorOffsetX="301.1" anchorOffsetY="414.45" verticalCenter="17.5" horizontalCenter="-0.5" source="duihuan_ditu_png"/>
+		<e:Image source="duihuan_biaoti_png" horizontalCenter="-3" top="151" anchorOffsetX="212.12" anchorOffsetY="75.76"/>
+		<e:Image source="duihuan_ditu1_png" y="383.88" horizontalCenter="-2" scale9Grid="51,27,367,66" anchorOffsetY="0" height="664.12" anchorOffsetX="0" width="544.15"/>
+		<e:Image source="email_kuang_png" y="403" scale9Grid="15,17,16,15" anchorOffsetX="0" width="491.34" anchorOffsetY="0" height="90.33" horizontalCenter="-0.5"/>
+		<e:Image source="email_kuang_png" y="823" scale9Grid="15,17,16,15" anchorOffsetX="0" width="491.34" anchorOffsetY="0" height="90.33" horizontalCenter="-0.5"/>
+		<e:Image source="email_kuang_png" y="928" scale9Grid="15,17,16,15" anchorOffsetX="0" width="491.34" anchorOffsetY="0" height="90.33" horizontalCenter="-0.5"/>
+		<eui:EffectButton id="_CloseBtn" label="" x="640.64" y="259.91" enabled="true" anchorOffsetX="40.91" anchorOffsetY="40.91">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="duihuan_guanbi_png" source.down="duihuan_guanbi_png" source.disabled="duihuan_guanbi_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<e:Image source="email_biaoti_png" y="106.98" horizontalCenter="15.5"/>
+		<e:Image source="email_paimingzi_png" x="103.48" y="315.46"/>
+		<e:Image source="email_zi_png" x="288.48" y="321.29"/>
+		<e:Image source="email_kuang_png" y="720" scale9Grid="15,17,16,15" anchorOffsetX="0" width="491.34" anchorOffsetY="0" height="90.33" horizontalCenter="-0.5"/>
+		<e:Image source="email_kuang_png" y="510" scale9Grid="15,17,16,15" anchorOffsetX="0" width="491.34" anchorOffsetY="0" height="90.33" horizontalCenter="-0.5"/>
+		<e:Image source="email_kuang_png" y="615" scale9Grid="15,17,16,15" anchorOffsetX="0" width="491.34" anchorOffsetY="0" height="90.33" horizontalCenter="-0.5"/>
+		<e:Image source="email_kuang1_png" x="116.83" y="405.02"/>
+		<e:Image source="email_zuan_png" x="118.98" y="412.02"/>
+		<e:Image source="email_xin_png" x="540.47" y="553.17"/>
+		<e:Image source="email_tu_png" x="120.82" y="510.66"/>
+	</e:Group>
+</e:Skin>

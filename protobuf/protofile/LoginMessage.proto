@@ -1,0 +1,54 @@
+syntax = "proto3";
+package com.aoo.chess.comms.protocol.proto.message;
+option java_outer_classname = "LoginMessage";
+
+/**
+ *登录请求
+ */
+message LoginRequest{
+	/**用户名*/
+	string username =1;
+	/**密码*/
+	string password = 2;
+	/**渠道编号*/
+	string channelId = 3;
+}
+/**
+ * 登录结果
+  */
+message LoginResult{
+	/**游戏服务器IP*/
+	string ip = 1;
+	/**游戏服务器端口*/
+	int32 port = 2;
+	/**会话编号*/
+	int64 sessionId = 3;
+}
+/**
+ * 注册请求
+  */
+message RegisterRequest{
+	/**用户名*/
+	string username =1;
+	/**密码*/
+	string password=2;
+	/**渠道编号*/
+	string channelId=3;
+	/**验证码 */
+	int32 authCode = 4;
+}
+
+message PlayerLogin{
+	int64 sessionId = 1;
+}
+message PlayerRegister{
+	int32 playerId = 1;
+	string name = 2;
+}
+
+message GainOnlinePlayerSize{
+
+}
+message OnlineSize{
+	int32 size = 1;
+}

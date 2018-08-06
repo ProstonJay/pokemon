@@ -1,0 +1,40 @@
+{"mc":{
+	"laba":{
+		"frameRate":8,
+		"labels":[
+			{"name":"go","frame":1,"end":4}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"dating_Laba1",
+			"x":2,
+			"y":5
+			},
+			{
+			"res":"dating_Laba2",
+			"x":0,
+			"y":0
+			},
+			{
+			"res":"dating_Laba3",
+			"x":2,
+			"y":5
+			},
+			{
+			"res":"dating_Laba4",
+			"x":2,
+			"y":5
+			}
+			]
+}},
+	"res":{
+		"dating_Laba4":{"x":64,"y":1,"w":58,"h":40},
+		"dating_Laba1":{"x":1,"y":48,"w":41,"h":40},
+		"dating_Laba2":{"x":1,"y":1,"w":61,"h":45},
+		"dating_Laba3":{"x":64,"y":43,"w":58,"h":40}
+	}}

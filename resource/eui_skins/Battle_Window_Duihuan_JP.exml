@@ -1,0 +1,45 @@
+<e:Skin class="Battle_Window_Duihuan_JPSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" >
+	<w:Config id="164f01814f7" ></w:Config>
+	<e:Group width="720" height="1280" x="0" y="0">
+		<e:Image source="duihuan_ditu_png" width="607.46" height="857.97" scaleX="1" scaleY="1" scale9Grid="57,50,50,60" anchorOffsetX="301.1" anchorOffsetY="427.92" verticalCenter="16" horizontalCenter="-0.5"/>
+		<e:Image source="duihuan_biaoti_png" horizontalCenter="0" top="134" anchorOffsetX="212.12" anchorOffsetY="75.76"/>
+		<e:Image source="duihuan_ditu1_png" y="381" horizontalCenter="0.5"/>
+		<eui:EffectButton id="_CloseBtn" label="" x="640.64" y="244.91" enabled="true" anchorOffsetX="40.91" anchorOffsetY="40.91">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="duihuan_guanbi_png" source.down="duihuan_guanbi_png" source.disabled="duihuan_guanbi_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<e:Image source="duihuan_ditu1_png" y="516" horizontalCenter="0.5"/>
+		<e:Image source="duihuan_ditu1_png" y="652" horizontalCenter="0.5"/>
+		<e:Image source="duihuan_ditu1_png" y="786" horizontalCenter="0.5"/>
+		<e:Image source="duihuan_ditu1_png" y="921" horizontalCenter="0.5"/>
+		<e:Image source="duihuan_ditu_kuang_png" x="114" y="291"/>
+		<e:Image source="duihuan_zi1_png" x="136.84" y="301"/>
+		<e:Image source="duihuan_zi3_png" x="251" y="301"/>
+		<e:Image source="duihuan_ditu2_png" x="120" y="376"/>
+		<e:Image source="duihuan_ditu2_png" x="120" y="511"/>
+		<e:Image source="duihuan_ditu2_png" x="120" y="646"/>
+		<e:Image source="duihuan_ditu2_png" x="120" y="781"/>
+		<e:Image source="duihuan_ditu2_png" x="120" y="916"/>
+		<e:Image source="duihuan_ditu_wupin_png" x="132" y="524.98"/>
+		<e:Image source="duihuan_ditu_wupin_png" x="132" y="660.88"/>
+		<e:Image source="duihuan_ditu_wupin_png" x="132" y="794.44"/>
+		<e:Image source="duihuan_ditu_wupin_png" x="132" y="931.04"/>
+		<e:Image source="duihuan_ditu_wupin_png" x="132" y="390"/>
+		<e:Image source="duihuan_zi4_png" x="230" y="185"/>
+		<e:Image source="duihuan_zi6_png" x="252" y="392.5"/>
+		<e:Image source="duihuan_zi6_png" x="252" y="520"/>
+		<e:Image source="duihuan_ditu_kuang_png" x="360.5" y="291"/>
+		<eui:EffectButton id="_AdresBtn" label="" x="474" y="327" enabled="true" anchorOffsetX="99" anchorOffsetY="30">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="duihuan_zi5_png" source.down="duihuan_zi5_png" source.disabled="duihuan_zi5_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+	</e:Group>
+</e:Skin>

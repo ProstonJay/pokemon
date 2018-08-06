@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Battle_window_TuJianSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" >
+	<w:Config id="164ea83a91a" ></w:Config>
+	<e:Group width="720" height="1280" x="0" y="0">
+		<e:Image width="598" height="710" source="tujian_ditu_png" horizontalCenter="0" verticalCenter="0" x="61" y="285" scaleX="1" scaleY="1" locked="true"/>
+		<e:Image source="tujian_ditu1_png" x="82.5" y="362" scaleX="1" scaleY="1" locked="true"/>
+		<e:Image source="tujian_biaoti_png" y="197" horizontalCenter="0" x="144" scaleX="1" scaleY="1" locked="true"/>
+		<eui:EffectButton id="_CloseBtn" label="" x="639.5" y="300" enabled="true" anchorOffsetX="43" anchorOffsetY="42" scaleX="1" scaleY="1" locked="true">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tujian_guanbi_png" source.down="tujian_guanbi_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<eui:EffectButton id="_pt" label="" x="178.5" y="400" enabled="true" anchorOffsetX="90" anchorOffsetY="35" locked="true">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tujian_putongguai_png" source.down="tujian_putongguai_png" source.disabled="tujian_putongguai_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<eui:EffectButton id="_boss" label="" x="358.5" y="401.5" enabled="true" anchorOffsetX="91" anchorOffsetY="39" locked="true">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tujian_bossguai_png" source.down="tujian_bossguai_png" source.disabled="tujian_bossguai_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<eui:EffectButton id="_tx" label="" x="534.5" y="399" enabled="true" anchorOffsetX="88" anchorOffsetY="37" locked="true">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tujian_texiaoguai_png" source.down="tujian_texiaoguai_png" source.disabled="tujian_texiaoguai_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<e:Scroller width="523" height="511" x="95" y="444" anchorOffsetX="0" anchorOffsetY="0" enabled="true">
+			<e:List id="_list" width="275">
+				<e:layout>
+					<e:TileLayout orientation="rows" horizontalAlign="center" verticalAlign="middle" horizontalGap="20" verticalGap="20" paddingLeft="10"/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller width="523" height="511" x="95" y="444" anchorOffsetX="0" anchorOffsetY="0" enabled="true">
+			<e:List id="_list0" width="275">
+			<e:layout>
+				<e:TileLayout orientation="rows" horizontalAlign="center" verticalAlign="middle" horizontalGap="20" verticalGap="20" paddingLeft="10"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller width="523" height="511" x="95" y="444" anchorOffsetX="0" anchorOffsetY="0" enabled="true">
+			<e:List id="_list1" width="275">
+			<e:layout>
+				<e:TileLayout orientation="rows" horizontalAlign="center" verticalAlign="middle" horizontalGap="20" verticalGap="20" paddingLeft="10"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

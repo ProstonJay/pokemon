@@ -1,0 +1,28 @@
+syntax = "proto3";
+package com.aoo.chess.comms.protocol.proto.message;
+option java_outer_classname = "ServerMessage";
+message GainServerInfo{
+
+}
+
+message ServerInfoMsg{
+	/**服务器编号*/
+	int32 serverId = 1;
+	/**服务器组*/
+	int32 serverGroup = 2;
+	/**服务器名称*/
+	string serverName = 3;
+	/**服务器类型*/
+	int32 serverType = 4;
+	/**外网IP*/
+	string ip = 5;
+	/**外网端口*/
+	int32 port = 6;
+	/**内网地址*/
+	string localIp = 7;
+	/**内网端口*/
+	int32 localPort = 8;
+}
+message ServerInfoList{
+	repeated ServerInfoMsg infos = 1;
+}

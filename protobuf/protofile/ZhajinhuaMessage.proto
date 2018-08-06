@@ -1,0 +1,119 @@
+syntax = "proto3";
+package com.aoo.chess.comms.protocol.proto.message;
+option java_outer_classname = "ZhajinhuaMessage";
+import "RoomMessage.proto";
+/**
+ * 玩家准备
+ */
+message Ready{
+	int32 playerId = 1;
+}
+
+/**
+ * 扎金花房间信息
+ */
+message ZhajinhuaRoomInfo{
+	/**当前轮数 */
+	int32 round = 1;
+	/**时间 */
+	int32 times = 2;
+	/**总押注金额 */
+	int32 totleBetGold = 3;
+	/**房间中的玩家信息 */
+	repeated RoomPlayerInfo infos = 4;
+	/**庄家位置 */
+	int32 bankerIndex = 5;
+	/**当前状态 */
+	int32 state = 6;
+	bool look = 7;
+	/**最后押注的金额*/
+	int32 lastBetGold = 8;
+	/**自己的牌 如果看牌了就会发送 */
+	ZhajinhuaCards cards = 9;
+	/**当前出售的玩家编号 */
+	int32 currPlayerId = 10;
+}
+
+message LookCard{
+	int32 playerId = 1;
+}
+
+/**
+ * 扎金花牌組
+ */
+message ZhajinhuaCards{
+	int32 type = 1;
+	repeated Card card = 2;
+}
+/**
+ * 扎金花游戏开始
+ */
+message ZhajinhuaGameStart{
+	int32 money = 1;
+}
+/**
+ * 扎金花开始结果
+ */
+message ZhajinhuaStartResult{
+	bool sucess = 1;
+	int32 playerId = 2;
+	int64 currentGold = 3;
+}
+/**
+ * 扎金花开始结果
+ */
+message ZhajinhuaStartResultSet{
+	repeated ZhajinhuaStartResult results = 1;
+}
+/**
+ * 扎金花压住
+ */
+message ZhajinhuaBet{
+	int32 playerId = 1;
+	int32 gold = 2;
+}
+/**
+ * 比牌
+ */
+message ThanCard{
+	int32 playerId = 1;
+	int32 thanPlayerId = 2;
+	int32 gold = 3;
+}
+/**
+ * 比牌结果
+ */
+message ThanCardResult{
+	ThanCard thanCard = 1;
+	int32 winPlayerId = 2;
+}
+
+message GainZhajinhuaRoomInfo{
+	int32 playerId = 1;
+}
+
+message Discard{
+	int32 playerId = 1;
+}
+
+message ZhajinhuaEnd{
+	int32 winPlayerId = 1;
+	int32 winGold = 2;
+	repeated PlayerCard playerCards = 3;
+}
+message PlayerCard{
+	int32 playerId = 1;
+	string name = 2;
+	string icon = 3;
+	ZhajinhuaCards cards = 4;
+	int32 betGold = 5;
+}
+
+message StartFail{
+	int32 money = 1;
+}
+
+message KickOutPlayer{
+	int32 playerId = 1;
+	int32 checkOutPlayerId = 2;
+}

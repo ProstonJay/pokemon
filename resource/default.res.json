@@ -1,0 +1,691 @@
+{
+	"groups": [
+		{
+			"keys": "bag_tubiao_png,bag_zi_png,shop_anniu_hui_png,shop_anniu_lv_png,shop_biaoti_png,shop_chakantequan_png,shop_jinbi_png,shop_kuang_png,shop_kuang1_png,shop_kuang2_png,shop_zi_goumai_png,shop_zi_shuangbei_png,shop_zunshi_png,vip_anniu_chongzhi_png,vip_anniu_fanhui_png,vip_anniu_fanye_png,vip_biaoti_png,vip_jiazai_shang_png,vip_jiazai_xia_png,vip_zi_1_png,vip_zi_2_png,vip_zi_3_png,vip_zi_4_png,vip_zi_5_png,vip_zi_6_png,vip_zi_7_png,vip_zi_vip_png,email_biaoti_png,email_kuang_png,email_kuang1_png,email_lingqu_png,email_neirong_png,email_paimingzi_png,email_shanchu_png,email_tu_png,email_wupin_png,email_xin_png,email_zi_png,email_zuan_png,libao_biaoti_guizu_png,libao_biaoti_shouchong_png,libao_zi_1_png,libao_zi_2_png,libao_zi_3_png,libao_zi_4_png,mp1_png,mp2_png,mon_1_json,mon_1_png,mon_2_json,mon_2_png,ball_png,Click_Mc_json,Click_Mc_png,gold_png,Player_json,Player_png,Select_mc_json,Select_mc_png,Battle_BGM_mp3,Btn_Click_mp3,drop_mp3,eat_mp3,Hall_BGM_mp3,jl_mp3,tw_mp3,9ScaleBack_png,Battle_Ui_json,duihuan_anniu_baocun_png,duihuan_anniu_duihuan_png,duihuan_biaoti_png,duihuan_ditu_kuang_png,duihuan_ditu_kuang1_png,duihuan_ditu_kuang2_png,duihuan_ditu_wupin_png,duihuan_ditu_wupin1_png,duihuan_ditu_png,duihuan_ditu1_png,duihuan_ditu2_png,duihuan_fanhui_png,duihuan_guanbi_png,duihuan_tu_png,duihuan_tu1_png,duihuan_tu2_png,duihuan_zi_png,duihuan_zi1_png,duihuan_zi10_png,duihuan_zi2_png,duihuan_zi3_png,duihuan_zi4_png,duihuan_zi5_png,duihuan_zi6_png,duihuan_zi7_png,duihuan_zi8_png,duihuan_zi9_png,gd2_png,guaiwu1_png,guaiwu2_png,number_fnt,number_png,Qd_Imgae_Guang_png,Qd_Imgae_Kuang_png,tujian_biaoti_png,tujian_bossguai_png,tujian_ditu_png,tujian_ditu1_png,tujian_guai_png,tujian_guanbi_png,tujian_kuang_png,tujian_putongguai_png,tujian_shu_png,tujian_texiaoguai_png,tujian_zi_png,dating_mingchengkuang_png,dating_ditu_png,hall_ui_json,huidi_png,laba_mc_json,laba_mc_png,denglu_beijing_jpg,denglu_kaishi_png,denglu_zi_png,shop_kuang3_png,duihuan_guanbi2_png,duihuan_ditu3_png,air_png",
+			"name": "preload"
+		},
+		{
+			"keys": "jiazai_jindutiao_di_png,jiazai_jindutiao_ding_png,jiazai_zi_1_png,jiazai_zi_2_png,jiazai_zi_3_png,jiazai_zi_4_png,jiazai_zi_5_png,jiazhai_beijing_jpg",
+			"name": "loadui"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/ui/loadUi/jiazhai_beijing.jpg",
+			"type": "image",
+			"name": "jiazhai_beijing_jpg"
+		},
+		{
+			"url": "assets/ui/loadUi/jiazai_jindutiao_di.png",
+			"type": "image",
+			"name": "jiazai_jindutiao_di_png"
+		},
+		{
+			"url": "assets/ui/loadUi/jiazai_jindutiao_ding.png",
+			"type": "image",
+			"name": "jiazai_jindutiao_ding_png"
+		},
+		{
+			"url": "assets/ui/loadUi/jiazai_zi_1.png",
+			"type": "image",
+			"name": "jiazai_zi_1_png"
+		},
+		{
+			"url": "assets/ui/loadUi/jiazai_zi_2.png",
+			"type": "image",
+			"name": "jiazai_zi_2_png"
+		},
+		{
+			"url": "assets/ui/loadUi/jiazai_zi_3.png",
+			"type": "image",
+			"name": "jiazai_zi_3_png"
+		},
+		{
+			"url": "assets/ui/loadUi/jiazai_zi_4.png",
+			"type": "image",
+			"name": "jiazai_zi_4_png"
+		},
+		{
+			"url": "assets/ui/loadUi/jiazai_zi_5.png",
+			"type": "image",
+			"name": "jiazai_zi_5_png"
+		},
+		{
+			"url": "assets/ui/loginUi/denglu_beijing.jpg",
+			"type": "image",
+			"name": "denglu_beijing_jpg"
+		},
+		{
+			"url": "assets/ui/loginUi/denglu_kaishi.png",
+			"type": "image",
+			"name": "denglu_kaishi_png"
+		},
+		{
+			"url": "assets/ui/loginUi/denglu_zi.png",
+			"type": "image",
+			"name": "denglu_zi_png"
+		},
+		{
+			"url": "assets/role/gold.png",
+			"type": "image",
+			"name": "gold_png"
+		},
+		{
+			"url": "assets/role/Player.json",
+			"type": "json",
+			"name": "Player_json"
+		},
+		{
+			"url": "assets/role/Player.png",
+			"type": "image",
+			"name": "Player_png"
+		},
+		{
+			"url": "assets/ui/hallUi/dating_ditu.png",
+			"type": "image",
+			"name": "dating_ditu_png"
+		},
+		{
+			"url": "assets/mon/mon_1.json",
+			"type": "json",
+			"name": "mon_1_json"
+		},
+		{
+			"url": "assets/mon/mon_1.png",
+			"type": "image",
+			"name": "mon_1_png"
+		},
+		{
+			"url": "assets/mon/mon_2.json",
+			"type": "json",
+			"name": "mon_2_json"
+		},
+		{
+			"url": "assets/mon/mon_2.png",
+			"type": "image",
+			"name": "mon_2_png"
+		},
+		{
+			"url": "assets/role/ball.png",
+			"type": "image",
+			"name": "ball_png"
+		},
+		{
+			"url": "assets/role/Select_mc.png",
+			"type": "image",
+			"name": "Select_mc_png"
+		},
+		{
+			"url": "assets/role/Select_mc.json",
+			"type": "json",
+			"name": "Select_mc_json"
+		},
+		{
+			"url": "assets/role/Click_Mc.png",
+			"type": "image",
+			"name": "Click_Mc_png"
+		},
+		{
+			"url": "assets/role/Click_Mc.json",
+			"type": "json",
+			"name": "Click_Mc_json"
+		},
+		{
+			"url": "assets/ui/battleUi/number.fnt",
+			"type": "font",
+			"name": "number_fnt"
+		},
+		{
+			"url": "assets/ui/battleUi/number.png",
+			"type": "image",
+			"name": "number_png"
+		},
+		{
+			"url": "assets/ui/hallUi/laba_mc.png",
+			"type": "image",
+			"name": "laba_mc_png"
+		},
+		{
+			"url": "assets/ui/hallUi/laba_mc.json",
+			"type": "json",
+			"name": "laba_mc_json"
+		},
+		{
+			"url": "assets/ui/hallUi/hall_ui.json",
+			"type": "sheet",
+			"name": "hall_ui_json",
+			"subkeys": "dating_jiahao,dating_jianzhu_1,dating_jianzhu_2,dating_jianzhu_3,dating_jianzhu_4,dating_jianzhu_5,dating_jinbi,dating_labatiao,dating_mingchengkuang,dating_shang_choujiang,dating_shang_dikuang,dating_shang_fxhb,dating_shang_qiandao,dating_shang_viptq,dating_shang_xshd,dating_shang_yklb,dating_touxiang_nan,dating_touxiang_nv,dating_touxiangkuang,dating_xia_beibao,dating_xia_beijingtiao,dating_xia_duihuan,dating_xia_jiaose,dating_xia_paihangbang,dating_xia_renwu,dating_xia_shezhi,dating_xia_youjian,dating_zuanshi"
+		},
+		{
+			"url": "assets/ui/hallUi/huidi.png",
+			"type": "image",
+			"name": "huidi_png"
+		},
+		{
+			"url": "gameEui.json",
+			"type": "json",
+			"name": "gameEui_json"
+		},
+		{
+			"url": "assets/ui/common/dating_mingchengkuang.png",
+			"type": "image",
+			"name": "dating_mingchengkuang_png"
+		},
+		{
+			"url": "assets/ui/battleUi/tujian_biaoti.png",
+			"type": "image",
+			"name": "tujian_biaoti_png"
+		},
+		{
+			"url": "assets/ui/battleUi/tujian_bossguai.png",
+			"type": "image",
+			"name": "tujian_bossguai_png"
+		},
+		{
+			"url": "assets/ui/battleUi/tujian_ditu.png",
+			"type": "image",
+			"name": "tujian_ditu_png"
+		},
+		{
+			"url": "assets/ui/battleUi/tujian_ditu1.png",
+			"type": "image",
+			"name": "tujian_ditu1_png"
+		},
+		{
+			"url": "assets/ui/battleUi/tujian_guai.png",
+			"type": "image",
+			"name": "tujian_guai_png"
+		},
+		{
+			"url": "assets/ui/battleUi/tujian_guanbi.png",
+			"type": "image",
+			"name": "tujian_guanbi_png"
+		},
+		{
+			"url": "assets/ui/battleUi/tujian_kuang.png",
+			"type": "image",
+			"name": "tujian_kuang_png"
+		},
+		{
+			"url": "assets/ui/battleUi/tujian_putongguai.png",
+			"type": "image",
+			"name": "tujian_putongguai_png"
+		},
+		{
+			"url": "assets/ui/battleUi/tujian_shu.png",
+			"type": "image",
+			"name": "tujian_shu_png"
+		},
+		{
+			"url": "assets/ui/battleUi/tujian_texiaoguai.png",
+			"type": "image",
+			"name": "tujian_texiaoguai_png"
+		},
+		{
+			"url": "assets/ui/battleUi/tujian_zi.png",
+			"type": "image",
+			"name": "tujian_zi_png"
+		},
+		{
+			"url": "assets/ui/battleUi/guaiwu2.png",
+			"type": "image",
+			"name": "guaiwu2_png"
+		},
+		{
+			"url": "assets/ui/battleUi/guaiwu1.png",
+			"type": "image",
+			"name": "guaiwu1_png"
+		},
+		{
+			"url": "assets/ui/battleUi/duihuanUI/duihuan_anniu_baocun.png",
+			"type": "image",
+			"name": "duihuan_anniu_baocun_png"
+		},
+		{
+			"url": "assets/ui/battleUi/duihuanUI/duihuan_anniu_duihuan.png",
+			"type": "image",
+			"name": "duihuan_anniu_duihuan_png"
+		},
+		{
+			"url": "assets/ui/battleUi/duihuanUI/duihuan_biaoti.png",
+			"type": "image",
+			"name": "duihuan_biaoti_png"
+		},
+		{
+			"url": "assets/ui/battleUi/duihuanUI/duihuan_ditu.png",
+			"type": "image",
+			"name": "duihuan_ditu_png"
+		},
+		{
+			"url": "assets/ui/battleUi/duihuanUI/duihuan_ditu1.png",
+			"type": "image",
+			"name": "duihuan_ditu1_png"
+		},
+		{
+			"url": "assets/ui/battleUi/duihuanUI/duihuan_ditu2.png",
+			"type": "image",
+			"name": "duihuan_ditu2_png"
+		},
+		{
+			"url": "assets/ui/battleUi/duihuanUI/duihuan_ditu_kuang.png",
+			"type": "image",
+			"name": "duihuan_ditu_kuang_png"
+		},
+		{
+			"url": "assets/ui/battleUi/duihuanUI/duihuan_ditu_kuang1.png",
+			"type": "image",
+			"name": "duihuan_ditu_kuang1_png"
+		},
+		{
+			"url": "assets/ui/battleUi/duihuanUI/duihuan_ditu_kuang2.png",
+			"type": "image",
+			"name": "duihuan_ditu_kuang2_png"
+		},
+		{
+			"url": "assets/ui/battleUi/duihuanUI/duihuan_ditu_wupin.png",
+			"type": "image",
+			"name": "duihuan_ditu_wupin_png"
+		},
+		{
+			"url": "assets/ui/battleUi/duihuanUI/duihuan_ditu_wupin1.png",
+			"type": "image",
+			"name": "duihuan_ditu_wupin1_png"
+		},
+		{
+			"url": "assets/ui/battleUi/duihuanUI/duihuan_fanhui.png",
+			"type": "image",
+			"name": "duihuan_fanhui_png"
+		},
+		{
+			"url": "assets/ui/battleUi/duihuanUI/duihuan_guanbi.png",
+			"type": "image",
+			"name": "duihuan_guanbi_png"
+		},
+		{
+			"url": "assets/ui/battleUi/duihuanUI/duihuan_tu.png",
+			"type": "image",
+			"name": "duihuan_tu_png"
+		},
+		{
+			"url": "assets/ui/battleUi/duihuanUI/duihuan_tu1.png",
+			"type": "image",
+			"name": "duihuan_tu1_png"
+		},
+		{
+			"url": "assets/ui/battleUi/duihuanUI/duihuan_tu2.png",
+			"type": "image",
+			"name": "duihuan_tu2_png"
+		},
+		{
+			"url": "assets/ui/battleUi/duihuanUI/duihuan_zi.png",
+			"type": "image",
+			"name": "duihuan_zi_png"
+		},
+		{
+			"url": "assets/ui/battleUi/duihuanUI/duihuan_zi1.png",
+			"type": "image",
+			"name": "duihuan_zi1_png"
+		},
+		{
+			"url": "assets/ui/battleUi/duihuanUI/duihuan_zi10.png",
+			"type": "image",
+			"name": "duihuan_zi10_png"
+		},
+		{
+			"url": "assets/ui/battleUi/duihuanUI/duihuan_zi2.png",
+			"type": "image",
+			"name": "duihuan_zi2_png"
+		},
+		{
+			"url": "assets/ui/battleUi/duihuanUI/duihuan_zi3.png",
+			"type": "image",
+			"name": "duihuan_zi3_png"
+		},
+		{
+			"url": "assets/ui/battleUi/duihuanUI/duihuan_zi4.png",
+			"type": "image",
+			"name": "duihuan_zi4_png"
+		},
+		{
+			"url": "assets/ui/battleUi/duihuanUI/duihuan_zi5.png",
+			"type": "image",
+			"name": "duihuan_zi5_png"
+		},
+		{
+			"url": "assets/ui/battleUi/duihuanUI/duihuan_zi6.png",
+			"type": "image",
+			"name": "duihuan_zi6_png"
+		},
+		{
+			"url": "assets/ui/battleUi/duihuanUI/duihuan_zi7.png",
+			"type": "image",
+			"name": "duihuan_zi7_png"
+		},
+		{
+			"url": "assets/ui/battleUi/duihuanUI/duihuan_zi8.png",
+			"type": "image",
+			"name": "duihuan_zi8_png"
+		},
+		{
+			"url": "assets/ui/battleUi/duihuanUI/duihuan_zi9.png",
+			"type": "image",
+			"name": "duihuan_zi9_png"
+		},
+		{
+			"url": "assets/ui/battleUi/gd2.png",
+			"type": "image",
+			"name": "gd2_png"
+		},
+		{
+			"url": "assets/ui/battleUi/Battle_Ui.json",
+			"type": "sheet",
+			"name": "Battle_Ui_json",
+			"subkeys": "zhandou_fanhui,zhandou_jinbi_jiahao,zhandou_jinbi_kuang,zhandou_jineng_3,zhandou_jineng_5,zhandou_jineng_6,zhandou_renshu,zhandou_renshu_beijing,zhandou_renshu_dikuang,zhandou_renshu_shenzhan,zhandou_tubiao_dhzx,zhandou_tubiao_guaji,zhandou_tubiao_tujian,zhandou_tubiao_zhankai,zhandou_tubiao_zlts,zhandou_tubiao_zxlb,zhandou_xiaoditu,zhandou_xiaoditu_dian1,zhandou_xiaoditu_dian2,zhandou_zhandou_ditu,zhandou_zhandou_zidong,zhandou_zhanlizhi,zhandou_zhanlizhi_ditu,zhandou_zhanlizhi_ditu1,zhandou_zhanlizhi_jia,zhandou_zhanlizhi_jian"
+		},
+		{
+			"url": "assets/ui/battleUi/Qd_Imgae_Guang.png",
+			"type": "image",
+			"name": "Qd_Imgae_Guang_png"
+		},
+		{
+			"url": "assets/ui/battleUi/Qd_Imgae_Kuang.png",
+			"type": "image",
+			"name": "Qd_Imgae_Kuang_png"
+		},
+		{
+			"url": "assets/ui/battleUi/9ScaleBack.png",
+			"type": "image",
+			"name": "9ScaleBack_png"
+		},
+		{
+			"url": "assets/sound/Btn_Click.mp3",
+			"type": "sound",
+			"name": "Btn_Click_mp3"
+		},
+		{
+			"url": "assets/sound/Hall_BGM.mp3",
+			"type": "sound",
+			"name": "Hall_BGM_mp3"
+		},
+		{
+			"url": "assets/map/mp2.png",
+			"type": "image",
+			"name": "mp2_png"
+		},
+		{
+			"url": "assets/map/mp1.png",
+			"type": "image",
+			"name": "mp1_png"
+		},
+		{
+			"url": "assets/sound/tw.mp3",
+			"type": "sound",
+			"name": "tw_mp3"
+		},
+		{
+			"url": "assets/sound/jl.mp3",
+			"type": "sound",
+			"name": "jl_mp3"
+		},
+		{
+			"url": "assets/sound/drop.mp3",
+			"type": "sound",
+			"name": "drop_mp3"
+		},
+		{
+			"url": "assets/sound/eat.mp3",
+			"type": "sound",
+			"name": "eat_mp3"
+		},
+		{
+			"url": "assets/sound/Battle_BGM.mp3",
+			"type": "sound",
+			"name": "Battle_BGM_mp3"
+		},
+		{
+			"url": "assets/ui/hallUi/bag/bag_tubiao.png",
+			"type": "image",
+			"name": "bag_tubiao_png"
+		},
+		{
+			"url": "assets/ui/hallUi/bag/bag_zi.png",
+			"type": "image",
+			"name": "bag_zi_png"
+		},
+		{
+			"url": "assets/ui/hallUi/shop/shop_anniu_hui.png",
+			"type": "image",
+			"name": "shop_anniu_hui_png"
+		},
+		{
+			"url": "assets/ui/hallUi/shop/shop_anniu_lv.png",
+			"type": "image",
+			"name": "shop_anniu_lv_png"
+		},
+		{
+			"url": "assets/ui/hallUi/shop/shop_biaoti.png",
+			"type": "image",
+			"name": "shop_biaoti_png"
+		},
+		{
+			"url": "assets/ui/hallUi/shop/shop_chakantequan.png",
+			"type": "image",
+			"name": "shop_chakantequan_png"
+		},
+		{
+			"url": "assets/ui/hallUi/shop/shop_jinbi.png",
+			"type": "image",
+			"name": "shop_jinbi_png"
+		},
+		{
+			"url": "assets/ui/hallUi/shop/shop_kuang.png",
+			"type": "image",
+			"name": "shop_kuang_png"
+		},
+		{
+			"url": "assets/ui/hallUi/shop/shop_kuang1.png",
+			"type": "image",
+			"name": "shop_kuang1_png"
+		},
+		{
+			"url": "assets/ui/hallUi/shop/shop_kuang2.png",
+			"type": "image",
+			"name": "shop_kuang2_png"
+		},
+		{
+			"url": "assets/ui/hallUi/shop/shop_zi_goumai.png",
+			"type": "image",
+			"name": "shop_zi_goumai_png"
+		},
+		{
+			"url": "assets/ui/hallUi/shop/shop_zi_shuangbei.png",
+			"type": "image",
+			"name": "shop_zi_shuangbei_png"
+		},
+		{
+			"url": "assets/ui/hallUi/shop/shop_zunshi.png",
+			"type": "image",
+			"name": "shop_zunshi_png"
+		},
+		{
+			"url": "assets/ui/hallUi/vip/vip_anniu_chongzhi.png",
+			"type": "image",
+			"name": "vip_anniu_chongzhi_png"
+		},
+		{
+			"url": "assets/ui/hallUi/vip/vip_anniu_fanhui.png",
+			"type": "image",
+			"name": "vip_anniu_fanhui_png"
+		},
+		{
+			"url": "assets/ui/hallUi/vip/vip_anniu_fanye.png",
+			"type": "image",
+			"name": "vip_anniu_fanye_png"
+		},
+		{
+			"url": "assets/ui/hallUi/vip/vip_biaoti.png",
+			"type": "image",
+			"name": "vip_biaoti_png"
+		},
+		{
+			"url": "assets/ui/hallUi/vip/vip_jiazai_shang.png",
+			"type": "image",
+			"name": "vip_jiazai_shang_png"
+		},
+		{
+			"url": "assets/ui/hallUi/vip/vip_jiazai_xia.png",
+			"type": "image",
+			"name": "vip_jiazai_xia_png"
+		},
+		{
+			"url": "assets/ui/hallUi/vip/vip_zi_1.png",
+			"type": "image",
+			"name": "vip_zi_1_png"
+		},
+		{
+			"url": "assets/ui/hallUi/vip/vip_zi_2.png",
+			"type": "image",
+			"name": "vip_zi_2_png"
+		},
+		{
+			"url": "assets/ui/hallUi/vip/vip_zi_3.png",
+			"type": "image",
+			"name": "vip_zi_3_png"
+		},
+		{
+			"url": "assets/ui/hallUi/vip/vip_zi_4.png",
+			"type": "image",
+			"name": "vip_zi_4_png"
+		},
+		{
+			"url": "assets/ui/hallUi/vip/vip_zi_5.png",
+			"type": "image",
+			"name": "vip_zi_5_png"
+		},
+		{
+			"url": "assets/ui/hallUi/vip/vip_zi_6.png",
+			"type": "image",
+			"name": "vip_zi_6_png"
+		},
+		{
+			"url": "assets/ui/hallUi/vip/vip_zi_7.png",
+			"type": "image",
+			"name": "vip_zi_7_png"
+		},
+		{
+			"url": "assets/ui/hallUi/vip/vip_zi_vip.png",
+			"type": "image",
+			"name": "vip_zi_vip_png"
+		},
+		{
+			"url": "assets/ui/hallUi/email/email_biaoti.png",
+			"type": "image",
+			"name": "email_biaoti_png"
+		},
+		{
+			"url": "assets/ui/hallUi/email/email_kuang.png",
+			"type": "image",
+			"name": "email_kuang_png"
+		},
+		{
+			"url": "assets/ui/hallUi/email/email_kuang1.png",
+			"type": "image",
+			"name": "email_kuang1_png"
+		},
+		{
+			"url": "assets/ui/hallUi/email/email_lingqu.png",
+			"type": "image",
+			"name": "email_lingqu_png"
+		},
+		{
+			"url": "assets/ui/hallUi/email/email_neirong.png",
+			"type": "image",
+			"name": "email_neirong_png"
+		},
+		{
+			"url": "assets/ui/hallUi/email/email_paimingzi.png",
+			"type": "image",
+			"name": "email_paimingzi_png"
+		},
+		{
+			"url": "assets/ui/hallUi/email/email_shanchu.png",
+			"type": "image",
+			"name": "email_shanchu_png"
+		},
+		{
+			"url": "assets/ui/hallUi/email/email_tu.png",
+			"type": "image",
+			"name": "email_tu_png"
+		},
+		{
+			"url": "assets/ui/hallUi/email/email_wupin.png",
+			"type": "image",
+			"name": "email_wupin_png"
+		},
+		{
+			"url": "assets/ui/hallUi/email/email_xin.png",
+			"type": "image",
+			"name": "email_xin_png"
+		},
+		{
+			"url": "assets/ui/hallUi/email/email_zi.png",
+			"type": "image",
+			"name": "email_zi_png"
+		},
+		{
+			"url": "assets/ui/hallUi/email/email_zuan.png",
+			"type": "image",
+			"name": "email_zuan_png"
+		},
+		{
+			"url": "assets/ui/hallUi/libao/libao_biaoti_guizu.png",
+			"type": "image",
+			"name": "libao_biaoti_guizu_png"
+		},
+		{
+			"url": "assets/ui/hallUi/libao/libao_biaoti_shouchong.png",
+			"type": "image",
+			"name": "libao_biaoti_shouchong_png"
+		},
+		{
+			"url": "assets/ui/hallUi/libao/libao_zi_1.png",
+			"type": "image",
+			"name": "libao_zi_1_png"
+		},
+		{
+			"url": "assets/ui/hallUi/libao/libao_zi_2.png",
+			"type": "image",
+			"name": "libao_zi_2_png"
+		},
+		{
+			"url": "assets/ui/hallUi/libao/libao_zi_3.png",
+			"type": "image",
+			"name": "libao_zi_3_png"
+		},
+		{
+			"url": "assets/ui/hallUi/libao/libao_zi_4.png",
+			"type": "image",
+			"name": "libao_zi_4_png"
+		},
+		{
+			"name": "shop_kuang3_png",
+			"type": "image",
+			"url": "assets/ui/loginUi/shop_kuang.png"
+		},
+		{
+			"name": "duihuan_guanbi2_png",
+			"type": "image",
+			"url": "assets/ui/loginUi/duihuan_guanbi.png"
+		},
+		{
+			"name": "duihuan_ditu3_png",
+			"type": "image",
+			"url": "assets/ui/loginUi/duihuan_ditu.png"
+		},
+		{
+			"name": "air_png",
+			"type": "image",
+			"url": "assets/ui/hallUi/bag/air.png"
+		}
+	]
+}
