@@ -3,7 +3,7 @@
 	<e:Group width="720" height="1280" x="0" y="0">
 		<e:Image width="607.46" height="830.97" scaleX="1" scaleY="1" scale9Grid="57,50,50,60" anchorOffsetX="301.1" anchorOffsetY="414.45" verticalCenter="34.5" horizontalCenter="-0.5" source="duihuan_ditu_png"/>
 		<e:Image source="duihuan_biaoti_png" horizontalCenter="0" top="165" anchorOffsetX="212.12" anchorOffsetY="75.76"/>
-		<e:Image source="duihuan_ditu1_png" y="400.88" horizontalCenter="-2" scale9Grid="51,27,367,66" anchorOffsetY="0" height="664.12" anchorOffsetX="0" width="544.15"/>
+		<e:Image source="duihuan_ditu1_png" y="366.88" horizontalCenter="-2" scale9Grid="51,27,367,66" anchorOffsetY="0" height="657.12" anchorOffsetX="0" width="544.15"/>
 		<eui:EffectButton id="_CloseBtn" label="" x="641.14" y="277.91" enabled="true" anchorOffsetX="40.41" anchorOffsetY="40.91" width="81">
 			<eui:skinName>
 				<e:Skin states="up,down,disabled">
@@ -12,15 +12,17 @@
 				</e:Skin>
 			</eui:skinName>
 		</eui:EffectButton>
-		<e:Image source="email_paimingzi_png" x="86" y="332.06"/>
-		<e:Image source="email_zi_png" x="271.77" y="335.56"/>
-		<e:Image source="email_tu_png" x="313.27" y="190.5"/>
-		<e:Scroller width="523" height="645.51" x="95" y="411.52" anchorOffsetX="0" anchorOffsetY="0" enabled="true" verticalScrollBar="null">
-			<e:List id="_list" width="275" anchorOffsetY="0" height="661.51" x="0" y="0">
+		<e:Image source="email_paimingzi_png" y="317" horizontalCenter="-34.5"/>
+		<e:Image source="email_zi_png" y="320.5" horizontalCenter="78.5"/>
+
+		<e:Scroller width="523" height="622.51" x="95" y="377.52" anchorOffsetX="0" anchorOffsetY="0" enabled="true" verticalScrollBar="null">
+			<e:List id="_list" width="275" anchorOffsetY="0" height="625.51" x="0" y="0">
 				<e:layout>
 					<e:VerticalLayout/>
 				</e:layout>
 			</e:List>
 		</e:Scroller>
+		<e:Image source="ranking_tubiao_png" y="106" horizontalCenter="0"/>
+		<e:Image source="ranking_zi_png" y="1024" horizontalCenter="0"/>
 	</e:Group>
 </e:Skin>

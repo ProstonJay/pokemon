@@ -12,9 +12,9 @@
 			</eui:skinName>
 		</eui:EffectButton>
 		<e:Image source="bag_tubiao_png" horizontalCenter="0.5" verticalCenter="-433"/>
-		<e:Image source="bag_zi_png" y="332.48" horizontalCenter="-75"/>
-		<e:Scroller width="523" height="662.51" x="95" y="395.52" anchorOffsetX="0" anchorOffsetY="0" enabled="true" verticalScrollBar="null">
-			<e:List id="_list" width="275" anchorOffsetY="0" height="630.7" x="0" y="-56.06">
+		<e:Image source="bag_zi_png" y="320.48" horizontalCenter="0"/>
+		<e:Scroller width="523" height="663.51" x="95" y="373.52" anchorOffsetX="0" anchorOffsetY="0" enabled="true" verticalScrollBar="null">
+			<e:List id="_list" width="275" anchorOffsetY="0" height="667.51" x="0" y="-28">
 				<e:layout>
 					<e:VerticalLayout/>
 				</e:layout>

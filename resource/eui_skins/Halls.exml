@@ -12,7 +12,7 @@
 				</e:Skin>
 			</eui:skinName>
 		</eui:EffectButton>
-		<eui:EffectButton id="_PkBtn" label="" x="574.5" y="609.5" enabled="true" anchorOffsetX="128" anchorOffsetY="126.67">
+		<eui:EffectButton id="_PkBtn" label="" x="577.16" y="572.22" enabled="true" anchorOffsetX="128" anchorOffsetY="126.67">
 			<eui:skinName>
 				<e:Skin states="up,down,disabled">
 				<e:Image width="100%" height="100%" source="dating_jz_3_png" source.down="dating_jz_3_png" source.disabled="dating_jz_3_png"/>
@@ -28,12 +28,12 @@
 
 		<e:Image source="hall_ui_json.dating_shang_dikuang" height="89" left="0" top="0" right="0" x="0" y="0" scaleX="1" scaleY="1"/>
 		<e:Image height="150" y="0" source="hall_ui_json.dating_touxiangkuang" left="0" width="155" x="0" scaleX="1" scaleY="1"/>
-		<e:Image width="177" height="54" x="531" y="12" source="hall_ui_json.dating_mingchengkuang" scaleX="1" scaleY="1"/>
-		<e:Image width="177" height="54" x="343" y="12" source="hall_ui_json.dating_mingchengkuang" scaleX="1" scaleY="1"/>
-		<e:Image width="177" height="54" x="155" y="12" source="hall_ui_json.dating_mingchengkuang" scaleX="1" scaleY="1"/>
-		<e:Image width="45" height="45" x="343" y="16.5" source="hall_ui_json.dating_jinbi" scaleX="1" scaleY="1"/>
-		<e:Image width="45" height="45" x="531" y="14" source="hall_ui_json.dating_zuanshi" scaleX="1" scaleY="1"/>
-		<e:Button id="_BuyGoldBtn" label="" x="470" y="12" width="46" height="46" enabled="true" scaleX="1" scaleY="1">
+		<e:Image width="255" height="54" x="180" y="12" source="hall_ui_json.dating_mingchengkuang" scaleX="1" scaleY="1" scale9Grid="31,17,120,18" anchorOffsetX="0"/>
+		<e:Image width="264" height="54" x="442" y="12" source="hall_ui_json.dating_mingchengkuang" scaleX="1" scaleY="1" scale9Grid="30,16,122,20" anchorOffsetX="0"/>
+		<e:Image width="177" height="54" x="-5" y="147" source="hall_ui_json.dating_mingchengkuang" scaleX="1" scaleY="1"/>
+		<e:Image width="45" height="45" x="175" y="16.5" source="hall_ui_json.dating_jinbi" scaleX="1" scaleY="1"/>
+		<e:Image width="45" height="45" x="440" y="14" source="hall_ui_json.dating_zuanshi" scaleX="1" scaleY="1"/>
+		<e:Button id="_BuyGoldBtn" label="" x="384" y="12" width="46" height="46" enabled="true" scaleX="1" scaleY="1">
 			<e:skinName>
 			<e:Skin states="up,down,disabled">
 				<e:Image width="100%" height="100%" source="hall_ui_json.dating_jiahao" source.down="hall_ui_json.dating_jiahao"/>
@@ -66,7 +66,7 @@
 
 
 		<e:Image id="_Icon" width="129" height="131" x="13" y="5" scaleX="1" scaleY="1" source="hall_ui_json.dating_touxiang_nv"/>
-		<eui:EffectButton id="_BagBtn" label="" x="177" enabled="true" anchorOffsetX="59" anchorOffsetY="59" scaleX="1" scaleY="1" bottom="12">
+		<eui:EffectButton id="_BagBtn" label="" x="177" enabled="true" anchorOffsetX="59" anchorOffsetY="59" scaleX="1" scaleY="1" bottom="9">
 			<eui:skinName>
 			<e:Skin states="up,down,disabled">
 				<e:Image width="100%" height="100%" source="hall_ui_json.dating_xia_beibao" source.down="hall_ui_json.dating_xia_beibao" source.disabled="hall_ui_json.dating_xia_beibao"/>
@@ -75,7 +75,7 @@
 			</eui:skinName>
 		</eui:EffectButton>
 
-		<eui:EffectButton id="_RankBtn" label="" x="417" enabled="true" anchorOffsetX="58" anchorOffsetY="58" scaleX="1" scaleY="1" bottom="11">
+		<eui:EffectButton id="_RankBtn" label="" x="417" enabled="true" anchorOffsetX="58" anchorOffsetY="58" scaleX="1" scaleY="1" bottom="10">
 			<eui:skinName>
 			<e:Skin states="up,down,disabled">
 				<e:Image width="100%" height="100%" source="hall_ui_json.dating_xia_paihangbang" source.down="hall_ui_json.dating_xia_paihangbang" source.disabled="hall_ui_json.dating_xia_paihangbang"/>
@@ -83,7 +83,7 @@
 			</e:Skin>
 			</eui:skinName>
 		</eui:EffectButton>
-		<eui:EffectButton id="_MailBtn" label="" x="540" enabled="true" anchorOffsetX="60" anchorOffsetY="57" scaleX="1" scaleY="1" bottom="9">
+		<eui:EffectButton id="_MailBtn" label="" x="540" enabled="true" anchorOffsetX="60" anchorOffsetY="57" scaleX="1" scaleY="1" bottom="7">
 			<eui:skinName>
 			<e:Skin states="up,down,disabled">
 				<e:Image width="100%" height="100%" source="hall_ui_json.dating_xia_youjian" source.down="hall_ui_json.dating_xia_youjian" source.disabled="hall_ui_json.dating_xia_youjian"/>
@@ -92,9 +92,9 @@
 			</eui:skinName>
 		</eui:EffectButton>
 
-		<e:BitmapLabel width="71" height="29" x="589" y="25" font="number_fnt" text="40" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1"/>
-		<e:BitmapLabel width="92" height="29" x="386" y="22.5" font="number_fnt" text="900" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1"/>
-		<e:Label id="_Name" text="沉鱼落雁" x="177" y="22" anchorOffsetX="0" width="138" size="24" fontFamily="SimHei" textAlign="center" anchorOffsetY="0" height="29" verticalAlign="middle" textColor="0x99f40c" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel width="171" height="29" x="489" y="25" font="number_fnt" text="12345678" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel width="171" height="29" x="219" y="24.5" font="number_fnt" text="12345678" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1"/>
+		<e:Label id="_Name" text="沉鱼落雁" x="17" y="157" anchorOffsetX="0" width="138" size="24" fontFamily="SimHei" textAlign="center" anchorOffsetY="0" height="29" verticalAlign="middle" textColor="0x99f40c" scaleX="1" scaleY="1"/>
 		<eui:EffectButton id="_BattleBtn" label="" x="147.5" y="665.67" enabled="true" anchorOffsetX="92" anchorOffsetY="158.67">
 			<eui:skinName>
 				<e:Skin states="up,down,disabled">
@@ -111,7 +111,7 @@
 				</e:Skin>
 			</eui:skinName>
 		</eui:EffectButton>
-		<eui:EffectButton id="_TratBtn" label="" x="295" anchorOffsetX="59" anchorOffsetY="60" scaleX="1" scaleY="1" bottom="12">
+		<eui:EffectButton id="_TratBtn" label="" x="295" anchorOffsetX="59" anchorOffsetY="60" scaleX="1" scaleY="1" bottom="9">
 			<eui:skinName>
 			<e:Skin states="up,down,disabled">
 				<e:Image width="100%" height="100%" source="hall_ui_json.dating_xia_duihuan" source.down="hall_ui_json.dating_xia_duihuan" source.disabled="hall_ui_json.dating_xia_duihuan"/>
@@ -119,7 +119,7 @@
 			</e:Skin>
 			</eui:skinName>
 		</eui:EffectButton>
-		<eui:EffectButton label="" x="603.16" y="965.3" enabled="true" anchorOffsetX="114.67" anchorOffsetY="108">
+		<eui:EffectButton label="" x="603.16" y="961.31" enabled="true" anchorOffsetX="114.67" anchorOffsetY="108">
 			<eui:skinName>
 				<e:Skin states="up,down,disabled">
 				<e:Image width="100%" height="100%" source="dating_jz_5_png" source.down="dating_jz_5_png" source.disabled="dating_jz_5_png"/>
@@ -127,7 +127,7 @@
 				</e:Skin>
 			</eui:skinName>
 		</eui:EffectButton>
-		<eui:EffectButton id="_SetBtn" label="" enabled="true" bottom="6" x="659.33" anchorOffsetX="61.33" anchorOffsetY="60">
+		<eui:EffectButton id="_SetBtn" label="" enabled="true" bottom="7" x="659.33" anchorOffsetX="61.33" anchorOffsetY="60">
 			<eui:skinName>
 				<e:Skin states="up,down,disabled">
 				<e:Image width="100%" height="100%" source="dating_xia_shangcheng_png" source.down="dating_xia_shangcheng_png" source.disabled="dating_xia_shangcheng_png"/>
