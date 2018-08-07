@@ -4,10 +4,10 @@
 		<e:Image source="duihuan_ditu_png" width="607.46" height="695.97" scaleX="1" scaleY="1" scale9Grid="57,50,50,60" anchorOffsetX="301.1" anchorOffsetY="347.11" verticalCenter="4" horizontalCenter="-0.5"/>
 		<e:Image source="duihuan_ditu1_png" y="519.7" horizontalCenter="0.5"/>
 		<e:Image source="duihuan_ditu2_png" x="120" y="514.7"/>
-		<e:Image source="duihuan_ditu_wupin_png" x="132" y="528.68"/>
+
 		<e:Image source="duihuan_ditu1_png" y="659.7" horizontalCenter="0.5"/>
 		<e:Image source="duihuan_ditu2_png" x="120" y="658.7"/>
-		<e:Image source="duihuan_ditu_wupin_png" x="132" y="671.68"/>
+
 		<e:Image source="duihuan_ditu1_png" y="798.37" horizontalCenter="-4.5"/>
 		<e:Image source="duihuan_ditu2_png" x="118" y="794.37"/>
 		<e:Image source="duihuan_ditu_wupin_png" x="130" y="808.35"/>
@@ -30,5 +30,11 @@
 				</e:Skin>
 			</eui:skinName>
 		</eui:EffectButton>
+		<e:Image source="libao_tubiao_4_png" x="294" y="550.2"/>
+		<e:Image source="libao_tubiao_3_png" x="344.5" y="695.2"/>
+		<e:Image source="libao_tubiao_ditu1_png" x="131" y="526.7"/>
+		<e:Image source="libao_tubiao_ditu1_png" x="132" y="670.7"/>
+		<e:Image source="libao_tubiao_jinbi_png" x="128" y="523.7"/>
+		<e:Image source="libao_tubiao_zuanshi_png" x="130" y="671"/>
 	</e:Group>
 </e:Skin>
