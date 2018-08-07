@@ -22,5 +22,13 @@
 		</eui:EffectButton>
 		<e:Image source="libao_zi_2_png" y="382" horizontalCenter="0"/>
 		<e:Image source="libao_zi_3_png" y="445.02" horizontalCenter="0.5"/>
+		<eui:EffectButton label="" y="937" enabled="true" horizontalCenter="0">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zhandou_anniu_goumai_png" source.down="zhandou_anniu_goumai_png" source.disabled="zhandou_anniu_goumai_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
 	</e:Group>
 </e:Skin>
