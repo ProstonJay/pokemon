@@ -1,13 +1,13 @@
 <e:Skin class="Hall_Window_ShouchongSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" >
 	<w:Config id="1650e79d925" ></w:Config>
 	<e:Group width="720" height="1280" x="0" y="0">
-		<e:Image source="duihuan_ditu_png" width="607.46" height="695.97" scaleX="1" scaleY="1" scale9Grid="57,50,50,60" anchorOffsetX="301.1" anchorOffsetY="347.11" verticalCenter="14" horizontalCenter="-0.5"/>
-		<e:Image source="duihuan_ditu1_png" y="558.66" horizontalCenter="0.5"/>
-		<e:Image source="duihuan_ditu2_png" x="120" y="557.66"/>
-		<e:Image source="duihuan_ditu_wupin_png" x="132" y="570.64"/>
-		<e:Image source="duihuan_ditu1_png" y="698.66" horizontalCenter="0.5"/>
-		<e:Image source="duihuan_ditu2_png" x="120" y="688.66"/>
-		<e:Image source="duihuan_ditu_wupin_png" x="132" y="702.64"/>
+		<e:Image source="duihuan_ditu_png" width="607.46" height="588.97" scaleX="1" scaleY="1" scale9Grid="57,50,50,60" anchorOffsetX="301.1" anchorOffsetY="293.74" verticalCenter="-39.5" horizontalCenter="-0.5"/>
+		<e:Image source="duihuan_ditu1_png" y="486.66" horizontalCenter="0.5"/>
+		<e:Image source="duihuan_ditu2_png" x="120" y="485.66"/>
+
+		<e:Image source="duihuan_ditu1_png" y="626.66" horizontalCenter="0.5"/>
+		<e:Image source="duihuan_ditu2_png" x="120" y="616.66"/>
+
 		<eui:EffectButton id="_CloseBtn" label="" y="314.5" enabled="true" anchorOffsetX="42" anchorOffsetY="44" horizontalCenter="279">
 			<eui:skinName>
 				<e:Skin states="up,down,disabled">
@@ -18,8 +18,8 @@
 		</eui:EffectButton>
 		<e:Image source="libao_biaoti_shouchong_png" y="250.5" scaleX="1" scaleY="1" horizontalCenter="0.5"/>
 		<e:Image source="libao_zi_1_png" y="390" anchorOffsetX="0" width="488" anchorOffsetY="0" height="57" horizontalCenter="0"/>
-		<e:Image source="libao_zi_4_png" y="465" horizontalCenter="0"/>
-		<eui:EffectButton label="" y="948" enabled="true" horizontalCenter="9.5">
+		<e:Image source="libao_zi_4_png" y="776.16" horizontalCenter="0"/>
+		<eui:EffectButton label="" y="847" enabled="true" horizontalCenter="0">
 			<eui:skinName>
 				<e:Skin states="up,down,disabled">
 				<e:Image width="100%" height="100%" source="zhandou_anniu_goumai_png" source.down="zhandou_anniu_goumai_png" source.disabled="zhandou_anniu_goumai_png"/>
@@ -27,5 +27,11 @@
 				</e:Skin>
 			</eui:skinName>
 		</eui:EffectButton>
+		<e:Image source="libao_tubiao_ditu_png" x="132.34" y="498.33"/>
+		<e:Image source="libao_tubiao_ditu_png" x="131.31" y="629.65"/>
+		<e:Image source="libao_tubiao_jinbi_png" x="130.33" y="494.02"/>
+		<e:Image source="libao_tubiao_zuanshi1_png" x="126" y="632"/>
+		<e:Image source="libao_tubiao_2_png" x="266" y="515.66"/>
+		<e:Image source="libao_tubiao_1_png" x="315" y="651.16"/>
 	</e:Group>
 </e:Skin>
