@@ -1,0 +1,66 @@
+[
+  {
+    "Id": 1,
+    "Name": "钻石",
+    "AssetName": "diamond",
+    "Description": "5颗钻石",
+    "Cost": 5,
+    "type": "兑换券"
+  },
+  {
+    "Id": 2,
+    "Name": "冰封卡",
+    "AssetName": "ice card",
+    "Description": "3张冰封卡",
+    "Cost": 30,
+    "type": "兑换券"
+  },
+  {
+    "Id": 3,
+    "Name": "加速卡",
+    "AssetName": "speed card",
+    "Description": "3张加速卡",
+    "Cost": 50,
+    "type": "兑换券"
+  },
+  {
+    "Id": 4,
+    "Name": "角色卡",
+    "AssetName": "role card",
+    "Description": "1个训练师角色卡",
+    "Cost": 200,
+    "type": "兑换券"
+  },
+  {
+    "Id": 5,
+    "Name": "王者荣耀皮肤",
+    "AssetName": "skin of kings",
+    "Description": "1个王者荣耀皮肤兑换码",
+    "Cost": 300,
+    "type": "兑换券"
+  },
+  {
+    "Id": 6,
+    "Name": "话费卡",
+    "AssetName": "tele card",
+    "Description": "1张50元话费充值卡",
+    "Cost": 2000,
+    "type": "兑换券"
+  },
+  {
+    "Id": 7,
+    "Name": "京东购物卡",
+    "AssetName": "shopping card",
+    "Description": "1张100元京东购物卡",
+    "Cost": 10000,
+    "type": "兑换券"
+  },
+  {
+    "Id": 8,
+    "Name": "iPhone X",
+    "AssetName": "iphone x",
+    "Description": "1部iPhone X手机",
+    "Cost": 50000,
+    "type": "兑换券"
+  }
+]

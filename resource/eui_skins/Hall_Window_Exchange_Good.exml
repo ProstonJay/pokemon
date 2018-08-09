@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Hall_Window_Exchange_GoodSkin" width="520" height="117" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="165148c9082" ></w:Config>
+	<e:Image width="100%" height="100%" x="0" y="0" source="duihuan_ditu1_png"/>
+	<e:Image width="120" height="122" x="2" y="-3" source="duihuan_ditu2_png"/>
+	<e:Image  width="90" height="90" x="16" y="14" source="{data.AssetName}"/>
+	<e:Label  x="132" y="51" anchorOffsetX="0" width="328" anchorOffsetY="0" height="57" fontFamily="SimHei" verticalAlign="middle" textAlign="left" size="24" textColor="0xddefa2" text="     {data.Description}"/>
+	<e:Label x="132" y="18" anchorOffsetX="0" width="119" anchorOffsetY="0" height="28" fontFamily="SimHei" textAlign="left" text="{data.Name}" size="24" verticalAlign="middle" textColor="0xb6ed2f"/>
+	<e:Label x="273" y="18" anchorOffsetX="0" width="130" anchorOffsetY="0" height="28" fontFamily="SimHei" textAlign="right" size="24" text="{data.Cost}" verticalAlign="middle" textColor="0x1cffdc"/>
+	<e:Label x="420" y="18" anchorOffsetX="0" width="94" anchorOffsetY="0" height="28" fontFamily="SimHei" textAlign="left" size="24" verticalAlign="middle" textColor="0x1cffdc" text="{data.type}"/>
+</e:Skin>

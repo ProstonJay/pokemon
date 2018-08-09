@@ -157,5 +157,65 @@
         "path": "game\\module\\hall\\Hall_Window_Rank_Good.ts",
         "class": "Hall_Window_Rank_Good",
         "parentPath": "resource/eui_skins/ItemRendererSkin.exml"
+    },
+    "16513d73453": {
+        "path": "game\\module\\hall\\Hall_Window_Shop_Good.ts",
+        "class": "Hall_Window_Shop_Good",
+        "parentPath": "resource/eui_skins/ItemRendererSkin.exml"
+    },
+    "1651440ae71": {
+        "path": "game\\module\\hall\\Hall_Window_Email_Good.ts",
+        "class": "Hall_Window_Email_Good",
+        "parentPath": "resource/eui_skins/ItemRendererSkin.exml"
+    },
+    "16514868d20": {
+        "path": "game\\module\\hall\\Hall_Window_Exchange.ts",
+        "class": "Hall_Window_Exchange",
+        "parentPath": ""
+    },
+    "165148c9082": {
+        "path": "game\\module\\hall\\Hall_Window_Exchange_Good.ts",
+        "class": "Hall_Window_Exchange_Good",
+        "parentPath": "resource/eui_skins/ItemRendererSkin.exml"
+    },
+    "16514a27b8c": {
+        "path": "game\\module\\hall\\Battle_Window_Duihuan_JP.ts",
+        "class": "Battle_Window_Duihuan_JP",
+        "parentPath": ""
+    },
+    "16514a581d9": {
+        "path": "game\\module\\hall\\Hall_Window_Exchange_Jp.ts",
+        "class": "Hall_Window_Exchange_Jp",
+        "parentPath": ""
+    },
+    "16514a7535f": {
+        "path": "game\\module\\hall\\Hall_Window_Duihua_Adress.ts",
+        "class": "Hall_Window_Duihua_Adress",
+        "parentPath": ""
+    },
+    "16514a7d953": {
+        "path": "game\\module\\hall\\Hall_Window_Exchange_Adress.ts",
+        "class": "Hall_Window_Exchange_Adress",
+        "parentPath": ""
+    },
+    "16514ab5263": {
+        "path": "game\\module\\hall\\Hall_Window_Exchange_Good_Info.ts",
+        "class": "Hall_Window_Exchange_Good_Info",
+        "parentPath": "resource/eui_skins/ItemRendererSkin.exml"
+    },
+    "165186ad30d": {
+        "path": "game\\module\\hall\\Hall_Window_Vip_Good.ts",
+        "class": "Hall_Window_Vip_Good",
+        "parentPath": "resource/eui_skins/ItemRendererSkin.exml"
+    },
+    "16518cd2a6e": {
+        "path": "game\\module\\hall\\Hall_Window_Guizu_Good.ts",
+        "class": "Hall_Window_Guizu_Good",
+        "parentPath": "resource/eui_skins/ItemRendererSkin.exml"
+    },
+    "165197b2c84": {
+        "path": "game\\module\\hall\\Hall_Window_Shouchong_Good.ts",
+        "class": "Hall_Window_Shouchong_Good",
+        "parentPath": "resource/eui_skins/ItemRendererSkin.exml"
     }
 }

@@ -17,14 +17,21 @@
 		/**
 		 * 添加二级界面
 		 */
-		export function AddWindow(str:string){
+		export function AddWindow(str:string,valye:any=null,isClear:boolean=true){
 			let childNum:number=WinBox.numChildren;
-			for( var i = 0; i<childNum; ++i ){
-				WinBox.removeChildAt(i)
+			if(isClear==true){
+				for( var i = 0; i<childNum; ++i ){
+					WinBox.removeChildAt(i)
+				}
 			}
 			if(WinBox.getChildByName(str)==null){
 				let winClass = egret.getDefinitionByName(str);
-				let win = new winClass();
+				let win:any;
+				if(valye!=null){
+					 win = new winClass(valye);
+				}else{
+					 win = new winClass();
+				}
 				win.name=str;
 				WinBox.addChild(win);
 			}

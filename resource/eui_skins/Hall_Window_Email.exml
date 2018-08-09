@@ -4,10 +4,10 @@
 	<e:Group width="720" height="1280" x="0" y="0">
 		<e:Image width="607.46" height="810.97" scaleX="1" scaleY="1" scale9Grid="57,50,50,60" anchorOffsetX="301.1" anchorOffsetY="404.47" verticalCenter="7.5" horizontalCenter="-0.5" source="duihuan_ditu_png"/>
 		<e:Image source="duihuan_biaoti_png" horizontalCenter="-3" top="151" anchorOffsetX="212.12" anchorOffsetY="75.76"/>
-		<e:Image source="duihuan_ditu1_png" y="358.88" horizontalCenter="-2" scale9Grid="51,27,367,66" anchorOffsetY="0" height="664.12" anchorOffsetX="0" width="544.15"/>
-		<e:Image source="email_kuang_png" y="378" scale9Grid="15,17,16,15" anchorOffsetX="0" width="491.34" anchorOffsetY="0" height="90.33" horizontalCenter="-0.5"/>
-		<e:Image source="email_kuang_png" y="798" scale9Grid="15,17,16,15" anchorOffsetX="0" width="491.34" anchorOffsetY="0" height="90.33" horizontalCenter="-0.5"/>
-		<e:Image source="email_kuang_png" y="903" scale9Grid="15,17,16,15" anchorOffsetX="0" width="491.34" anchorOffsetY="0" height="90.33" horizontalCenter="-0.5"/>
+		<e:Image source="duihuan_ditu1_png" y="327.88" horizontalCenter="-2" scale9Grid="51,27,367,66" anchorOffsetY="0" height="695.12" anchorOffsetX="0" width="544.15"/>
+
+
+
 		<eui:EffectButton id="_CloseBtn" label="" x="640.64" y="259.91" enabled="true" anchorOffsetX="40.91" anchorOffsetY="40.91">
 			<eui:skinName>
 				<e:Skin states="up,down,disabled">
@@ -17,14 +17,15 @@
 			</eui:skinName>
 		</eui:EffectButton>
 		<e:Image source="email_biaoti_png" y="106.98" horizontalCenter="15.5"/>
-		<e:Image source="email_paimingzi_png" x="223.48" y="307.46"/>
-		<e:Image source="email_zi_png" x="408.48" y="313.29"/>
-		<e:Image source="email_kuang_png" y="695" scale9Grid="15,17,16,15" anchorOffsetX="0" width="491.34" anchorOffsetY="0" height="90.33" horizontalCenter="-0.5"/>
-		<e:Image source="email_kuang_png" y="485" scale9Grid="15,17,16,15" anchorOffsetX="0" width="491.34" anchorOffsetY="0" height="90.33" horizontalCenter="-0.5"/>
-		<e:Image source="email_kuang_png" y="590" scale9Grid="15,17,16,15" anchorOffsetX="0" width="491.34" anchorOffsetY="0" height="90.33" horizontalCenter="-0.5"/>
-		<e:Image source="email_kuang1_png" x="116.83" y="380.02"/>
-		<e:Image source="email_zuan_png" x="118.98" y="387.02"/>
-		<e:Image source="email_xin_png" x="540.47" y="528.17"/>
-		<e:Image source="email_tu_png" x="120.82" y="485.66"/>
+
+
+		<e:Scroller width="523" height="663.51" x="94" y="342.52" anchorOffsetX="0" anchorOffsetY="0" enabled="true" verticalScrollBar="null">
+			<e:List id="_list" width="275" anchorOffsetY="0" height="667.51" x="0" y="-28">
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+
 	</e:Group>
 </e:Skin>

@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "bag_tubiao_png,bag_zi_png,shop_anniu_hui_png,shop_anniu_lv_png,shop_biaoti_png,shop_chakantequan_png,shop_jinbi_png,shop_kuang_png,shop_kuang1_png,shop_kuang2_png,shop_zi_goumai_png,shop_zi_shuangbei_png,shop_zunshi_png,vip_anniu_chongzhi_png,vip_anniu_fanhui_png,vip_anniu_fanye_png,vip_biaoti_png,vip_jiazai_shang_png,vip_jiazai_xia_png,vip_zi_1_png,vip_zi_2_png,vip_zi_3_png,vip_zi_4_png,vip_zi_5_png,vip_zi_6_png,vip_zi_7_png,vip_zi_vip_png,email_biaoti_png,email_kuang_png,email_kuang1_png,email_lingqu_png,email_neirong_png,email_paimingzi_png,email_shanchu_png,email_tu_png,email_wupin_png,email_xin_png,email_zi_png,email_zuan_png,libao_biaoti_guizu_png,libao_biaoti_shouchong_png,libao_zi_1_png,libao_zi_2_png,libao_zi_3_png,libao_zi_4_png,mp1_png,mp2_png,mon_1_json,mon_1_png,mon_2_json,mon_2_png,ball_png,Click_Mc_json,Click_Mc_png,gold_png,Player_json,Player_png,Select_mc_json,Select_mc_png,Battle_BGM_mp3,Btn_Click_mp3,drop_mp3,eat_mp3,Hall_BGM_mp3,jl_mp3,tw_mp3,9ScaleBack_png,Battle_Ui_json,duihuan_anniu_baocun_png,duihuan_anniu_duihuan_png,duihuan_biaoti_png,duihuan_ditu_kuang_png,duihuan_ditu_kuang1_png,duihuan_ditu_kuang2_png,duihuan_ditu_wupin_png,duihuan_ditu_wupin1_png,duihuan_ditu_png,duihuan_ditu1_png,duihuan_ditu2_png,duihuan_fanhui_png,duihuan_guanbi_png,duihuan_tu_png,duihuan_tu1_png,duihuan_tu2_png,duihuan_zi_png,duihuan_zi1_png,duihuan_zi10_png,duihuan_zi2_png,duihuan_zi3_png,duihuan_zi4_png,duihuan_zi5_png,duihuan_zi6_png,duihuan_zi7_png,duihuan_zi8_png,duihuan_zi9_png,gd2_png,guaiwu1_png,guaiwu2_png,number_fnt,number_png,Qd_Imgae_Guang_png,Qd_Imgae_Kuang_png,tujian_biaoti_png,tujian_bossguai_png,tujian_ditu_png,tujian_ditu1_png,tujian_guai_png,tujian_guanbi_png,tujian_kuang_png,tujian_putongguai_png,tujian_shu_png,tujian_texiaoguai_png,tujian_zi_png,dating_mingchengkuang_png,dating_ditu_png,hall_ui_json,huidi_png,laba_mc_json,laba_mc_png,denglu_beijing_jpg,denglu_kaishi_png,denglu_zi_png,shop_kuang3_png,duihuan_guanbi2_png,duihuan_ditu3_png,air_png",
+			"keys": "bag_tubiao_png,bag_zi_png,shop_anniu_hui_png,shop_anniu_lv_png,shop_biaoti_png,shop_chakantequan_png,shop_jinbi_png,shop_kuang_png,shop_kuang1_png,shop_kuang2_png,shop_zi_goumai_png,shop_zi_shuangbei_png,shop_zunshi_png,vip_anniu_chongzhi_png,vip_anniu_fanhui_png,vip_anniu_fanye_png,vip_biaoti_png,vip_jiazai_shang_png,vip_jiazai_xia_png,vip_zi_1_png,vip_zi_2_png,vip_zi_3_png,vip_zi_4_png,vip_zi_5_png,vip_zi_6_png,vip_zi_7_png,vip_zi_vip_png,email_biaoti_png,email_kuang_png,email_kuang1_png,email_lingqu_png,email_neirong_png,email_paimingzi_png,email_shanchu_png,email_tu_png,email_wupin_png,email_xin_png,email_zi_png,email_zuan_png,libao_biaoti_guizu_png,libao_biaoti_shouchong_png,libao_zi_1_png,libao_zi_2_png,libao_zi_3_png,libao_zi_4_png,mp1_png,mp2_png,mon_1_json,mon_1_png,mon_2_json,mon_2_png,ball_png,Click_Mc_json,Click_Mc_png,gold_png,Player_json,Player_png,Select_mc_json,Select_mc_png,Battle_BGM_mp3,Btn_Click_mp3,drop_mp3,eat_mp3,Hall_BGM_mp3,jl_mp3,tw_mp3,9ScaleBack_png,Battle_Ui_json,duihuan_anniu_baocun_png,duihuan_anniu_duihuan_png,duihuan_biaoti_png,duihuan_ditu_kuang_png,duihuan_ditu_kuang1_png,duihuan_ditu_kuang2_png,duihuan_ditu_wupin_png,duihuan_ditu_wupin1_png,duihuan_ditu_png,duihuan_ditu1_png,duihuan_ditu2_png,duihuan_fanhui_png,duihuan_guanbi_png,duihuan_tu_png,duihuan_tu1_png,duihuan_tu2_png,duihuan_zi_png,duihuan_zi1_png,duihuan_zi10_png,duihuan_zi2_png,duihuan_zi3_png,duihuan_zi4_png,duihuan_zi5_png,duihuan_zi6_png,duihuan_zi7_png,duihuan_zi8_png,duihuan_zi9_png,gd2_png,guaiwu1_png,guaiwu2_png,number_fnt,number_png,Qd_Imgae_Guang_png,Qd_Imgae_Kuang_png,tujian_biaoti_png,tujian_bossguai_png,tujian_ditu_png,tujian_ditu1_png,tujian_guai_png,tujian_guanbi_png,tujian_kuang_png,tujian_putongguai_png,tujian_shu_png,tujian_texiaoguai_png,tujian_zi_png,dating_mingchengkuang_png,dating_ditu_png,hall_ui_json,huidi_png,laba_mc_json,laba_mc_png,denglu_beijing_jpg,denglu_kaishi_png,denglu_zi_png,shop_kuang3_png,duihuan_guanbi2_png,duihuan_ditu3_png,air_png,dating_jz_1_png,dating_jz_2_png,dating_jz_3_png,dating_jz_4_png,dating_jz_5_png,dating_jz_6_png,dating_shang_gzlb_png,dating_shang_scth_png,dating_xia_shangcheng_png,libao_tubiao_1_png,libao_tubiao_2_png,libao_tubiao_3_png,libao_tubiao_4_png,libao_tubiao_ditu_png,libao_tubiao_jinbi_png,libao_tubiao_zuanshi_png,libao_tubiao_zuanshi1_png,ranking_tubiao_png,ranking_zi_png,Shop_json,Cash_json,libao_tubiao_ditu1_png,zhandou_anniu_goumai_png,VersionDs_txt,Vip_json,Pack_json,Gift_json,Charge_json",
 			"name": "preload"
 		},
 		{
@@ -686,6 +686,146 @@
 			"name": "air_png",
 			"type": "image",
 			"url": "assets/ui/hallUi/bag/air.png"
+		},
+		{
+			"name": "dating_jz_1_png",
+			"type": "image",
+			"url": "assets/ui/hallUi/dating_jz_1.png"
+		},
+		{
+			"name": "dating_jz_2_png",
+			"type": "image",
+			"url": "assets/ui/hallUi/dating_jz_2.png"
+		},
+		{
+			"name": "dating_jz_3_png",
+			"type": "image",
+			"url": "assets/ui/hallUi/dating_jz_3.png"
+		},
+		{
+			"name": "dating_jz_4_png",
+			"type": "image",
+			"url": "assets/ui/hallUi/dating_jz_4.png"
+		},
+		{
+			"name": "dating_jz_5_png",
+			"type": "image",
+			"url": "assets/ui/hallUi/dating_jz_5.png"
+		},
+		{
+			"name": "dating_jz_6_png",
+			"type": "image",
+			"url": "assets/ui/hallUi/dating_jz_6.png"
+		},
+		{
+			"name": "dating_shang_gzlb_png",
+			"type": "image",
+			"url": "assets/ui/hallUi/dating_shang_gzlb.png"
+		},
+		{
+			"name": "dating_shang_scth_png",
+			"type": "image",
+			"url": "assets/ui/hallUi/dating_shang_scth.png"
+		},
+		{
+			"name": "dating_xia_shangcheng_png",
+			"type": "image",
+			"url": "assets/ui/hallUi/dating_xia_shangcheng.png"
+		},
+		{
+			"name": "libao_tubiao_1_png",
+			"type": "image",
+			"url": "assets/ui/hallUi/libao/libao_tubiao_1.png"
+		},
+		{
+			"name": "libao_tubiao_2_png",
+			"type": "image",
+			"url": "assets/ui/hallUi/libao/libao_tubiao_2.png"
+		},
+		{
+			"name": "libao_tubiao_3_png",
+			"type": "image",
+			"url": "assets/ui/hallUi/libao/libao_tubiao_3.png"
+		},
+		{
+			"name": "libao_tubiao_4_png",
+			"type": "image",
+			"url": "assets/ui/hallUi/libao/libao_tubiao_4.png"
+		},
+		{
+			"name": "libao_tubiao_ditu_png",
+			"type": "image",
+			"url": "assets/ui/hallUi/libao/libao_tubiao_ditu.png"
+		},
+		{
+			"name": "libao_tubiao_jinbi_png",
+			"type": "image",
+			"url": "assets/ui/hallUi/libao/libao_tubiao_jinbi.png"
+		},
+		{
+			"name": "libao_tubiao_zuanshi_png",
+			"type": "image",
+			"url": "assets/ui/hallUi/libao/libao_tubiao_zuanshi.png"
+		},
+		{
+			"name": "libao_tubiao_zuanshi1_png",
+			"type": "image",
+			"url": "assets/ui/hallUi/libao/libao_tubiao_zuanshi1.png"
+		},
+		{
+			"name": "ranking_tubiao_png",
+			"type": "image",
+			"url": "assets/ui/hallUi/rank/ranking_tubiao.png"
+		},
+		{
+			"name": "ranking_zi_png",
+			"type": "image",
+			"url": "assets/ui/hallUi/rank/ranking_zi.png"
+		},
+		{
+			"name": "Shop_json",
+			"type": "json",
+			"url": "config/Shop.json"
+		},
+		{
+			"name": "Cash_json",
+			"type": "json",
+			"url": "config/Cash.json"
+		},
+		{
+			"name": "libao_tubiao_ditu1_png",
+			"type": "image",
+			"url": "assets/ui/hallUi/libao/libao_tubiao_ditu1.png"
+		},
+		{
+			"name": "zhandou_anniu_goumai_png",
+			"type": "image",
+			"url": "assets/ui/battleUi/zhanlitisheng/zhandou_anniu_goumai.png"
+		},
+		{
+			"name": "VersionDs_txt",
+			"type": "text",
+			"url": "config/VersionDs.txt"
+		},
+		{
+			"name": "Vip_json",
+			"type": "json",
+			"url": "config/Vip.json"
+		},
+		{
+			"name": "Pack_json",
+			"type": "json",
+			"url": "config/Pack.json"
+		},
+		{
+			"name": "Gift_json",
+			"type": "json",
+			"url": "config/Gift.json"
+		},
+		{
+			"name": "Charge_json",
+			"type": "json",
+			"url": "config/Charge.json"
 		}
 	]
 }

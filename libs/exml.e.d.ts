@@ -1,13 +1,5 @@
 declare class Battle_UiSkin extends eui.Skin{
 }
-declare class Battle_Window_DuihuanSkin extends eui.Skin{
-}
-declare class Battle_Window_Duihuan_AdressSkin extends eui.Skin{
-}
-declare class Battle_Window_Duihuan_JPSkin extends eui.Skin{
-}
-declare class Battle_Window_Duihuan_XQSkin extends eui.Skin{
-}
 declare class Battle_Window_OnlieSkin extends eui.Skin{
 }
 declare class Battle_window_TuJianSkin extends eui.Skin{
@@ -36,9 +28,23 @@ declare class Hall_Window_Bag_GoodSkin extends eui.Skin{
 }
 declare class Hall_Window_EmailSkin extends eui.Skin{
 }
+declare class Hall_Window_Email_GoodSkin extends eui.Skin{
+}
 declare class Hall_Window_Email_OpenSkin extends eui.Skin{
 }
+declare class Hall_Window_ExchangeSkin extends eui.Skin{
+}
+declare class Hall_Window_Exchange_AdressSkin extends eui.Skin{
+}
+declare class Hall_Window_Exchange_GoodSkin extends eui.Skin{
+}
+declare class Hall_Window_Exchange_Good_InfoSkin extends eui.Skin{
+}
+declare class Hall_Window_Exchange_JpSkin extends eui.Skin{
+}
 declare class Hall_Window_GuizuSkin extends eui.Skin{
+}
+declare class Hall_Window_Guizu_GoodSkin extends eui.Skin{
 }
 declare class Battle_Window_RankingSkin extends eui.Skin{
 }
@@ -46,9 +52,15 @@ declare class Hall_Window_Rank_GoodSkin extends eui.Skin{
 }
 declare class Hall_Window_ShopSkin extends eui.Skin{
 }
+declare class Hall_Window_Shop_GoodSkin extends eui.Skin{
+}
 declare class Hall_Window_ShouchongSkin extends eui.Skin{
 }
+declare class Hall_Window_Shouchong_GoodSkin extends eui.Skin{
+}
 declare class Hall_Window_VIPSkin extends eui.Skin{
+}
+declare class Hall_Window_Vip_GoodSkin extends eui.Skin{
 }
 declare class Hall_Window_VIP_OpenSkin extends eui.Skin{
 }

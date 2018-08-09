@@ -1,6 +1,6 @@
-class Battle_Window_Duihuan_JP extends eui.Component implements  eui.UIComponent {
+class Hall_Window_Exchange_Jp extends eui.Component implements  eui.UIComponent {
 
-	public static _NAME:string = "Battle_Window_Duihuan_JP";
+	public static _NAME:string = "Hall_Window_Exchange_Jp";
 
 	public constructor() {
 		super();
@@ -26,7 +26,7 @@ class Battle_Window_Duihuan_JP extends eui.Component implements  eui.UIComponent
 	}
 
 	private Click_AdresBtn(event:egret.TouchEvent){
-		   WinManager.AddWindow(Battle_Window_Duihuan_Adress._NAME);
+		   WinManager.AddWindow(Hall_Window_Exchange_Adress._NAME);
 	}
 
 	private Click_CloseBtn(event:egret.TouchEvent){

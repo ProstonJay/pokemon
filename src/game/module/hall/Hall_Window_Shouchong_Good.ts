@@ -1,4 +1,4 @@
-class Battle_Window_Duihuan_XQ extends eui.Component implements  eui.UIComponent {
+class Hall_Window_Shouchong_Good extends eui.ItemRenderer implements  eui.UIComponent {
 	public constructor() {
 		super();
 	}
