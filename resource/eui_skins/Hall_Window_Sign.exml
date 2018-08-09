@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Hall_Window_SignSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" >
+	<w:Config id="1651d80e060" ></w:Config>
+	<e:Group width="720" height="1280" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="sign_ditu_png" horizontalCenter="0" verticalCenter="-73.5"/>
+		<e:Image source="sign_ditu1_png" y="203.08" horizontalCenter="0"/>
+		<e:Image source="sign_biaoti_png" y="157.96" horizontalCenter="0"/>
+		<e:Image source="sign_ditu2_png" y="270" anchorOffsetX="0" width="156" anchorOffsetY="0" height="158" left="100"/>
+		<e:Image source="libao_tubiao_jinbi_png" x="124.92" y="300.5"/>
+		<e:Image source="sign_ditu2_png" y="270" anchorOffsetX="0" width="156" anchorOffsetY="0" height="158" horizontalCenter="8"/>
+		<e:Image source="sign_ditu2_png" y="270" anchorOffsetX="0" width="156" anchorOffsetY="0" height="158" x="480"/>
+		<e:Image source="sign_ditu2_png" y="480" anchorOffsetX="0" width="156" anchorOffsetY="0" height="158" left="100"/>
+		<e:Image source="sign_ditu2_png" y="480" anchorOffsetX="0" width="156" anchorOffsetY="0" height="158" horizontalCenter="8" x="10"/>
+		<e:Image source="sign_ditu2_png" y="480" anchorOffsetX="0" width="156" anchorOffsetY="0" height="158" x="480"/>
+		<e:Image source="sign_ditu2_png" y="690" anchorOffsetX="0" width="156" anchorOffsetY="0" height="158" left="100"/>
+		<e:Image source="sign_ditu2_png" y="690" anchorOffsetX="0" width="156" anchorOffsetY="0" height="158" horizontalCenter="8" x="20"/>
+		<e:Image source="sign_duihaokuang_png" x="208.92" y="383"/>
+		<e:Image source="sign_duihao_png" x="205.92" y="374"/>
+		<e:Image source="sign_tianshu_1_png" x="123.5" y="262.48"/>
+		<e:Image source="sign_tianshu_2_png" x="313" y="262.4"/>
+		<e:Image source="sign_tianshu_3_png" x="502.44" y="263.88"/>
+		<e:Image source="sign_tianshu_4_png" x="123.44" y="473.88"/>
+		<e:Image source="sign_tianshu_5_png" x="314.88" y="473.88"/>
+		<e:Image source="sign_tianshu_6_png" x="501.92" y="472.32"/>
+		<e:Image source="sign_tianshu_7_png" x="122.92" y="684.36"/>
+		<e:Image source="sign_tianshu_8_png" y="689.92" horizontalCenter="6.5"/>
+		<eui:EffectButton label="" y="883.6" enabled="true" horizontalCenter="0.5">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="email_lingqu_png" source.down="email_lingqu_png" source.disabled="email_lingqu_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+	</e:Group>
+</e:Skin>
