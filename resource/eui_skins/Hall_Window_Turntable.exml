@@ -2,10 +2,10 @@
 <e:Skin class="Hall_Window_TurntableSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" >
 	<w:Config id="1651d808118" ></w:Config>
 	<e:Group width="720" height="1280" horizontalCenter="0" verticalCenter="0">
-		<e:Image source="turntable_ditu_png" horizontalCenter="0.5" verticalCenter="12"/>
-		<e:Image source="turntable_ditu1_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="turntable_ditu_png" horizontalCenter="0.5" verticalCenter="12" visible="false"/>
+		<e:Image source="turntable_ditu1_png" horizontalCenter="0" verticalCenter="0" visible="false"/>
 		<e:Image source="turntable_guang_png" horizontalCenter="0" verticalCenter="0"/>
-		<eui:EffectButton label="" enabled="true" horizontalCenter="0.5" verticalCenter="-9.5">
+		<eui:EffectButton label="" enabled="true" horizontalCenter="0.5" verticalCenter="-9.5" visible="false">
 			<eui:skinName>
 				<e:Skin states="up,down,disabled">
 				<e:Image width="100%" height="100%" source="turntable_ljcj_png" source.down="turntable_ljcj_png" source.disabled="turntable_ljcj_png"/>
