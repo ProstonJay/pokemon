@@ -1,0 +1,101 @@
+[
+  {
+    "Id": 1,
+    "Name": "小把钻石",
+    "AssetName": "air_png",
+    "Description": "获得60钻石。",
+    "Cost": 6,
+    "page": 2,
+    "type": "RMB"
+  },
+  {
+    "Id": 2,
+    "Name": "大把钻石",
+    "AssetName": "air_png",
+    "Description": "获得120钻石。额外赠送5%钻石。",
+    "Cost": 12,
+    "page": 2,
+    "type": "RMB"
+  },
+  {
+    "Id": 3,
+    "Name": "小堆钻石",
+    "AssetName": "air_png",
+    "Description": "获得280钻石。额外赠送10%钻石。",
+    "Cost": 28,
+    "page": 2,
+    "type": "RMB"
+  },
+  {
+    "Id": 4,
+    "Name": "中堆钻石",
+    "AssetName": "air_png",
+    "Description": "获得500钻石。额外赠送15%钻石。",
+    "Cost": 50,
+    "page": 2,
+    "type": "RMB"
+  },
+  {
+    "Id": 5,
+    "Name": "大堆钻石",
+    "AssetName": "air_png",
+    "Description": "获得1080钻石。额外赠送20%钻石。",
+    "Cost": 108,
+    "page": 2,
+    "type": "RMB"
+  },
+  {
+    "Id": 6,
+    "Name": "海量钻石",
+    "AssetName": "air_png",
+    "Description": "获得3280钻石。额外赠送30%钻石。",
+    "Cost": 328,
+    "page": 2,
+    "type": "RMB"
+  },
+  {
+    "Id": 7,
+    "Name": "10钻石",
+    "AssetName": "air_png",
+    "Description": "10钻石兑换10万金币。",
+    "Cost": 10,
+    "page": 1,
+    "type": "钻石"
+  },
+  {
+    "Id": 8,
+    "Name": "50钻石",
+    "AssetName": "air_png",
+    "Description": "50钻石兑换50万金币。",
+    "Cost": 50,
+    "page": 1,
+    "type": "钻石"
+  },
+  {
+    "Id": 9,
+    "Name": "100钻石",
+    "AssetName": "air_png",
+    "Description": "100钻石兑换100万金币。",
+    "Cost": 100,
+    "page": 1,
+    "type": "钻石"
+  },
+  {
+    "Id": 10,
+    "Name": "1000钻石",
+    "AssetName": "air_png",
+    "Description": "1000钻石兑换1000万金币。",
+    "Cost": 1000,
+    "page": 1,
+    "type": "钻石"
+  },
+  {
+    "Id": 11,
+    "Name": "100000钻石",
+    "AssetName": "air_png",
+    "Description": "100000钻石兑换1亿金币。",
+    "Cost": 10000,
+    "page": 1,
+    "type": "钻石"
+  }
+]

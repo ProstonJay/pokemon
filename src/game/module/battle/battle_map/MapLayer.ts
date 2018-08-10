@@ -338,7 +338,7 @@ class MapLayer extends egret.DisplayObjectContainer{
 		this._MonsDic[evt.id]="";
 		//
 		this.role.StartAtk(false);
-		this.CreatGold(evt.pos);
+		this.CreatGold(evt.pos,(evt.currentTarget as Mons)._DB);
 		//重置当前选中怪物ID
 		this._SelcetId=-1;
 		//是否开启了自动战斗
@@ -392,9 +392,10 @@ class MapLayer extends egret.DisplayObjectContainer{
 		this.role.StartAtk(true);
 	}
 
-	private CreatGold(pos:egret.Point):void{
+	private CreatGold(pos:egret.Point,db:number):void{
+		PopManager.JumpMsg("怪物倍率X"+db);
 		for( var i = 0; i<10; ++i ){
-			let gold:DropItem = new DropItem(this.role);
+			let gold:DropItem = new DropItem(this.role,db);
 			gold.x=pos.x+(100-(Math.random()*200));
 			gold.y=pos.y+(100-(Math.random()*200));
 			// gold.y=Math.floor(Math.random()*(pos.y+100));;

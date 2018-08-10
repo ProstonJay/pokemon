@@ -1,0 +1,233 @@
+[
+  {
+    "Id": 10000,
+    "Name": "金币",
+    "AssetName": "金币",
+    "Description": "金币。",
+    "Sale": 0,
+    "Cost": 0,
+    "page": 1,
+    "Column7": "",
+    "Column8": ""
+  },
+  {
+    "Id": 10001,
+    "Name": "钻石",
+    "AssetName": "钻石",
+    "Description": "钻石。",
+    "Sale": 0,
+    "Cost": 0,
+    "page": 1,
+    "Column7": "",
+    "Column8": ""
+  },
+  {
+    "Id": 10002,
+    "Name": "冰封卡",
+    "AssetName": "冰封卡",
+    "Description": "范围内怪物在一定时间内被冰封无法移动。",
+    "Sale": 0,
+    "Cost": 0,
+    "page": 2,
+    "Column7": "",
+    "Column8": ""
+  },
+  {
+    "Id": 10003,
+    "Name": "2倍加速卡",
+    "AssetName": "2倍加速卡",
+    "Description": "攻击速度x2。",
+    "Sale": 0,
+    "Cost": 0,
+    "page": 2,
+    "Column7": "",
+    "Column8": ""
+  },
+  {
+    "Id": 10004,
+    "Name": "4倍加速卡",
+    "AssetName": "3倍加速卡",
+    "Description": "攻击速度x3。",
+    "Sale": 0,
+    "Cost": 0,
+    "page": 2,
+    "Column7": "",
+    "Column8": ""
+  },
+  {
+    "Id": 10005,
+    "Name": "兑换券",
+    "AssetName": "兑换券",
+    "Description": "兑换金币、钻石等高价值物品的必备道具。",
+    "Sale": 0,
+    "Cost": 0,
+    "page": 2,
+    "Column7": "",
+    "Column8": ""
+  },
+  {
+    "Id": 10006,
+    "Name": "角色卡1",
+    "AssetName": "角色卡1",
+    "Description": "激活角色1的道具卡。",
+    "Sale": 0,
+    "Cost": 0,
+    "page": 2,
+    "Column7": "",
+    "Column8": ""
+  },
+  {
+    "Id": 10007,
+    "Name": "角色卡2",
+    "AssetName": "角色卡2",
+    "Description": "激活角色2的道具卡。",
+    "Sale": 0,
+    "Cost": 0,
+    "page": 2,
+    "Column7": "",
+    "Column8": ""
+  },
+  {
+    "Id": 10008,
+    "Name": "角色卡3",
+    "AssetName": "角色卡3",
+    "Description": "激活角色3的道具卡。",
+    "Sale": 0,
+    "Cost": 0,
+    "page": 2,
+    "Column7": "",
+    "Column8": ""
+  },
+  {
+    "Id": 10009,
+    "Name": "角色卡4",
+    "AssetName": "角色卡4",
+    "Description": "激活角色4的道具卡。",
+    "Sale": 0,
+    "Cost": 0,
+    "page": 2,
+    "Column7": "",
+    "Column8": ""
+  },
+  {
+    "Id": 10010,
+    "Name": "角色卡5",
+    "AssetName": "角色卡5",
+    "Description": "激活角色5的道具卡。",
+    "Sale": 0,
+    "Cost": 0,
+    "page": 2,
+    "Column7": "",
+    "Column8": ""
+  },
+  {
+    "Id": 10011,
+    "Name": "天雷卡",
+    "AssetName": "天雷卡",
+    "Description": "召唤天雷大面积攻击怪物，群伤技能卡。",
+    "Sale": 0,
+    "Cost": 0,
+    "page": 2,
+    "Column7": "",
+    "Column8": ""
+  },
+  {
+    "Id": 10012,
+    "Name": "地狱火卡",
+    "AssetName": "地狱火卡",
+    "Description": "引爆地狱火灼伤范围内的怪物，群伤技能卡。",
+    "Sale": 0,
+    "Cost": 0,
+    "page": 2,
+    "Column7": "",
+    "Column8": "金币。"
+  },
+  {
+    "Id": 10013,
+    "Name": "碎片1",
+    "AssetName": "碎片1",
+    "Description": "碎片1",
+    "Sale": 1,
+    "Cost": 100,
+    "page": 3,
+    "Column7": "",
+    "Column8": ""
+  },
+  {
+    "Id": 10014,
+    "Name": "碎片2",
+    "AssetName": "碎片2",
+    "Description": "碎片2",
+    "Sale": 1,
+    "Cost": 100,
+    "page": 3,
+    "Column7": "",
+    "Column8": ""
+  },
+  {
+    "Id": 10015,
+    "Name": "碎片3",
+    "AssetName": "碎片3",
+    "Description": "碎片3",
+    "Sale": 1,
+    "Cost": 100,
+    "page": 3,
+    "Column7": "",
+    "Column8": ""
+  },
+  {
+    "Id": 10016,
+    "Name": "碎片4",
+    "AssetName": "碎片4",
+    "Description": "碎片4",
+    "Sale": 1,
+    "Cost": 100,
+    "page": 3,
+    "Column7": "",
+    "Column8": ""
+  },
+  {
+    "Id": 10017,
+    "Name": "碎片5",
+    "AssetName": "碎片5",
+    "Description": "碎片5",
+    "Sale": 1,
+    "Cost": 100,
+    "page": 3,
+    "Column7": "",
+    "Column8": ""
+  },
+  {
+    "Id": 10018,
+    "Name": "碎片6",
+    "AssetName": "碎片6",
+    "Description": "碎片6",
+    "Sale": 1,
+    "Cost": 100,
+    "page": 3,
+    "Column7": "",
+    "Column8": ""
+  },
+  {
+    "Id": 10019,
+    "Name": "碎片7",
+    "AssetName": "碎片7",
+    "Description": "碎片7",
+    "Sale": 1,
+    "Cost": 100,
+    "page": 3,
+    "Column7": "",
+    "Column8": ""
+  },
+  {
+    "Id": 10020,
+    "Name": "碎片8",
+    "AssetName": "碎片8",
+    "Description": "碎片8",
+    "Sale": 1,
+    "Cost": 100,
+    "page": 3,
+    "Column7": "",
+    "Column8": ""
+  }
+]

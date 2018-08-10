@@ -2,15 +2,15 @@
 	<w:Config id="1650e810af5" ></w:Config>
 	<e:Group width="720" height="1280" x="0" y="0">
 		<e:Image source="duihuan_ditu_png" width="607.46" height="695.97" scaleX="1" scaleY="1" scale9Grid="57,50,50,60" anchorOffsetX="301.1" anchorOffsetY="347.11" verticalCenter="4" horizontalCenter="-0.5"/>
-		<e:Image source="duihuan_ditu1_png" y="519.7" horizontalCenter="0.5"/>
-		<e:Image source="duihuan_ditu2_png" x="120" y="514.7"/>
 
-		<e:Image source="duihuan_ditu1_png" y="659.7" horizontalCenter="0.5"/>
-		<e:Image source="duihuan_ditu2_png" x="120" y="658.7"/>
 
-		<e:Image source="duihuan_ditu1_png" y="798.37" horizontalCenter="-4.5"/>
-		<e:Image source="duihuan_ditu2_png" x="118" y="794.37"/>
-		<e:Image source="duihuan_ditu_wupin_png" x="130" y="808.35"/>
+
+
+
+
+
+
+
 		<e:Image source="libao_biaoti_guizu_png" y="254" scaleX="1.2" scaleY="1.2" horizontalCenter="0"/>
 		<eui:EffectButton id="_CloseBtn" label="" x="647" y="315.68" enabled="true" anchorOffsetX="41" anchorOffsetY="41">
 			<eui:skinName>
@@ -22,7 +22,7 @@
 		</eui:EffectButton>
 		<e:Image source="libao_zi_2_png" y="382" horizontalCenter="0"/>
 		<e:Image source="libao_zi_3_png" y="445.02" horizontalCenter="0.5"/>
-		<eui:EffectButton label="" y="937" enabled="true" horizontalCenter="0">
+		<eui:EffectButton id="_BuyBtn" label="" y="937" enabled="true" horizontalCenter="1.5">
 			<eui:skinName>
 				<e:Skin states="up,down,disabled">
 				<e:Image width="100%" height="100%" source="zhandou_anniu_goumai_png" source.down="zhandou_anniu_goumai_png" source.disabled="zhandou_anniu_goumai_png"/>
@@ -30,11 +30,18 @@
 				</e:Skin>
 			</eui:skinName>
 		</eui:EffectButton>
-		<e:Image source="libao_tubiao_4_png" x="294" y="550.2"/>
-		<e:Image source="libao_tubiao_3_png" x="344.5" y="695.2"/>
-		<e:Image source="libao_tubiao_ditu1_png" x="131" y="526.7"/>
-		<e:Image source="libao_tubiao_ditu1_png" x="132" y="670.7"/>
-		<e:Image source="libao_tubiao_jinbi_png" x="128" y="523.7"/>
-		<e:Image source="libao_tubiao_zuanshi_png" x="130" y="671"/>
+
+
+
+
+
+
+		<e:Scroller width="528" height="422.51" y="509.52" anchorOffsetX="0" anchorOffsetY="0" enabled="true" verticalScrollBar="null" horizontalCenter="0">
+			<e:List id="_list" width="100%" anchorOffsetY="0" height="421.51" x="-1" y="37">
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
 	</e:Group>
 </e:Skin>

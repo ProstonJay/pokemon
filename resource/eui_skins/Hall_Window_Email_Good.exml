@@ -1,0 +1,8 @@
+﻿<e:Skin class="Hall_Window_Email_GoodSkin" width="520" height="117" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1651440ae71" ></w:Config>
+	<e:Image width="100%" height="100%" x="0" y="0" source="duihuan_ditu1_png"/>
+	<e:Image  width="90" height="90" x="20" y="11" source="email_tu_png"/>
+	<e:Label  x="132" y="51" anchorOffsetX="0" width="328" anchorOffsetY="0" height="57" fontFamily="SimHei" verticalAlign="middle" textAlign="left" size="24" text="     {data.Description}" textColor="0xa9daf2"/>
+	<e:Label x="132" y="18" anchorOffsetX="0" width="119" anchorOffsetY="0" height="28" fontFamily="SimHei" textAlign="left" text="{data.Name}" size="24" textColor="0xd651f7"/>
+	<e:Image width="57" height="34" x="457" y="9" source="email_xin_png"/>
+</e:Skin>

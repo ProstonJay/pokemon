@@ -157,7 +157,7 @@ class Battle_Ui extends eui.Component implements  eui.UIComponent {
      * 买金币
      */
     private Click_addGoldBtn(event:egret.TouchEvent){
-       
+        WinManager.AddWindow(Hall_Window_Shop._NAME,1);
     }
 
     /**
@@ -235,7 +235,7 @@ class Battle_Ui extends eui.Component implements  eui.UIComponent {
      * 兑换
      */
     private Click_dhBtn(event:egret.TouchEvent){
-          WinManager.AddWindow(Battle_Window_Duihuan._NAME);
+          WinManager.AddWindow(Hall_Window_Exchange._NAME);
     }
 
     /**

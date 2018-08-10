@@ -1,5 +1,5 @@
-<e:Skin class="Battle_Window_Duihuan_JPSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" >
-	<w:Config id="164f01814f7" ></w:Config>
+<e:Skin class="Hall_Window_Exchange_JpSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" >
+	<w:Config id="16514a581d9" ></w:Config>
 	<e:Group width="720" height="1280" x="0" y="0">
 		<e:Image source="duihuan_ditu_png" width="607.46" height="857.97" scaleX="1" scaleY="1" scale9Grid="57,50,50,60" anchorOffsetX="301.1" anchorOffsetY="427.92" verticalCenter="16" horizontalCenter="-0.5"/>
 		<e:Image source="duihuan_biaoti_png" horizontalCenter="0" top="134" anchorOffsetX="212.12" anchorOffsetY="75.76"/>

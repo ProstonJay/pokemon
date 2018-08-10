@@ -20,7 +20,7 @@
 				</e:Skin>
 			</eui:skinName>
 		</eui:EffectButton>
-		<e:Image id="_VerBgImg" source="duihuan_ditu3_png" y="76.91" scale9Grid="55,50,52,61" anchorOffsetX="0" width="593.81" anchorOffsetY="0" height="367.07" horizontalCenter="0"/>
+		<e:Image id="_VerBgImg" source="duihuan_ditu3_png" y="76.91" scale9Grid="55,50,52,61" anchorOffsetX="0" width="593.81" anchorOffsetY="0" height="461.07" horizontalCenter="0"/>
 		<eui:EffectButton id="_CloseVerBtn" label="" x="636.31" y="91" enabled="true" anchorOffsetX="40.91" anchorOffsetY="40.91">
 			<eui:skinName>
 				<e:Skin states="up,down,disabled">
@@ -29,6 +29,6 @@
 				</e:Skin>
 			</eui:skinName>
 		</eui:EffectButton>
-		<e:Label id="_VerTT" text="版本信息" y="128.78" anchorOffsetX="0" width="502.79" anchorOffsetY="0" height="266.36" horizontalCenter="0.5" fontFamily="SimHei" textColor="0xa1ef10" textAlign="left"/>
+		<e:Label id="_VerTT" text="版本信息" y="128.78" anchorOffsetX="0" width="502.79" anchorOffsetY="0" height="373.36" horizontalCenter="0.5" fontFamily="SimHei" textColor="0xa1ef10" textAlign="left"/>
 	</e:Group>
 </e:Skin>

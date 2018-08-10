@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Hall_Window_ExchangeSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:eui="eui.*" >
+	<w:Config id="16514868d20" ></w:Config>
+	<e:Group width="720" height="1280" x="0" y="0">
+		<e:Image source="duihuan_ditu_png" width="607.46" height="857.97" scaleX="1" scaleY="1" scale9Grid="57,50,50,60" anchorOffsetX="301.1" anchorOffsetY="427.92" verticalCenter="18" horizontalCenter="-0.5"/>
+		<e:Image source="duihuan_biaoti_png" horizontalCenter="0" top="136" anchorOffsetX="212.12" anchorOffsetY="75.76"/>
+		<e:Image source="duihuan_zi_png" horizontalCenter="0" verticalCenter="-414"/>
+		<eui:EffectButton id="_CloseBtn" label="" x="640.64" y="245.91" enabled="true" anchorOffsetX="40.91" anchorOffsetY="40.91">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="duihuan_guanbi_png" source.down="duihuan_guanbi_png" source.disabled="duihuan_guanbi_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<e:Image source="duihuan_ditu_kuang_png" x="114" y="292"/>
+		<e:Image source="duihuan_ditu_kuang_png" x="359.5" y="292"/>
+		<e:Image source="duihuan_zi1_png" x="136.84" y="302"/>
+		<e:Image source="duihuan_zi3_png" x="251" y="302"/>
+		<e:Image source="duihuan_zi2_png" x="376.95" y="302"/>
+		<eui:EffectButton id="_JpBtn" label="" x="540.78" y="324.18" enabled="true" anchorOffsetX="19.7" anchorOffsetY="18.18">
+			<eui:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="duihuan_ditu_kuang1_png" source.down="duihuan_ditu_kuang1_png" source.disabled="duihuan_ditu_kuang1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<e:Scroller width="523" height="679.51" x="95" y="377.52" anchorOffsetX="0" anchorOffsetY="0" enabled="true" verticalScrollBar="null">
+			<e:List id="_list" width="275" anchorOffsetY="0" height="677.51" x="0" y="0">
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+
+	</e:Group>
+</e:Skin>

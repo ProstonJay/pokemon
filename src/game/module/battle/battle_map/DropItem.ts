@@ -1,10 +1,12 @@
 class DropItem extends egret.Sprite{
 
 	private _followTatget:Role;
+	private _db:number;
 
-	public constructor(target:Role) {
+	public constructor(target:Role,db:number) {
 		super();
 		this._followTatget=target;
+		this._db=db;
         this.addEventListener(egret.Event.ADDED_TO_STAGE, this.onAddToStage, this);
 		this.addEventListener(egret.Event.REMOVED, this.onRmoveStage, this);
 	}
@@ -43,7 +45,7 @@ class DropItem extends egret.Sprite{
 		if(this.x<=this._followTatget.x+50&&this.x>=this._followTatget.x-50&&this.y<=this._followTatget.y-30+50&&this.y>=this._followTatget.y-30-50){
 			if(this.stage){
 				var bEvent = egret.Event.create(Battle_Event,Battle_Event.Add_Gold);
-				bEvent.vlaue=100;
+				bEvent.vlaue=(Main.DdNum*this._db)/10;
 				SoundMenager.Shared().PlayerEff("eat");
 				this.stage.dispatchEvent(bEvent);
 			}

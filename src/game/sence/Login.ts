@@ -34,8 +34,9 @@ class Login extends eui.Component implements  eui.UIComponent {
 		this._VersionBtn.addEventListener(egret.TouchEvent.TOUCH_TAP,this.Click_VersionBtn,this);
 		this._CloseVerBtn.addEventListener(egret.TouchEvent.TOUCH_TAP,this.Click_CloseVerBtn,this);
 		this._VerTT.visible=this._VerBgImg.visible=this._CloseVerBtn.visible=false;
-		// let data:string = RES.getRes("VersionDs_txt");
-		this._VerTT.text="内部版本：ver 1.0.0.2                  新增UI界面： 首冲礼包，贵族礼包，Vip特权，背包，兑换，排行榜，邮件，商城"
+		let data:string = RES.getRes("VersionDs_txt");
+		this._VerTT.text=data
+		//this._VerTT.text="内部版本：ver 1.0.0.3                   1.大厅界面更新  2."
 		//默认连接登录服务器
 		// App.Socket.initServer("192.168.0.16",2000);
 		// App.Socket.connect();

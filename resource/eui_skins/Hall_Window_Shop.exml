@@ -35,7 +35,7 @@
 		<e:Image source="vip_zi_2_png" y="315" horizontalCenter="0.5"/>
 		<e:Image source="vip_zi_3_png" y="315" horizontalCenter="164.5"/>
 		<e:Image source="shop_biaoti_png" y="71" horizontalCenter="0"/>
-		<eui:EffectButton label="" x="554.25" y="305.5" enabled="true">
+		<eui:EffectButton id="_VipBtn" label="" x="554.25" y="305.5" enabled="true">
 			<eui:skinName>
 				<e:Skin states="up,down,disabled">
 				<e:Image width="100%" height="100%" source="shop_chakantequan_png" source.down="shop_chakantequan_png" source.disabled="shop_chakantequan_png"/>
@@ -43,15 +43,15 @@
 				</e:Skin>
 			</eui:skinName>
 		</eui:EffectButton>
-		<e:Scroller width="523" height="671" x="95" y="444" anchorOffsetX="0" anchorOffsetY="0" enabled="true">
-			<e:List id="_list0" width="275" anchorOffsetY="0" height="673">
+		<e:Scroller width="523" height="693" x="95" y="422" anchorOffsetX="0" anchorOffsetY="0" enabled="true">
+			<e:List id="_list0" width="275" anchorOffsetY="0" height="692">
 			<e:layout>
 				<e:TileLayout orientation="rows" horizontalAlign="center" verticalAlign="middle" horizontalGap="20" verticalGap="20" paddingLeft="10"/>
 			</e:layout>
 			</e:List>
 		</e:Scroller>
-		<e:Scroller width="523" height="670" x="95" y="444" anchorOffsetX="0" anchorOffsetY="0" enabled="true">
-			<e:List id="_list1" width="275" anchorOffsetY="0" height="669">
+		<e:Scroller width="523" height="692" x="95" y="422" anchorOffsetX="0" anchorOffsetY="0" enabled="true">
+			<e:List id="_list1" width="275" anchorOffsetY="0" height="692" x="0" y="-25">
 			<e:layout>
 				<e:TileLayout orientation="rows" horizontalAlign="center" verticalAlign="middle" horizontalGap="20" verticalGap="20" paddingLeft="10"/>
 			</e:layout>

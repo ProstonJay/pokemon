@@ -9,6 +9,7 @@ class Mons extends egret.DisplayObjectContainer {
 	public _id:number;
 
 	public _Hp:number;
+	public _DB:number;
 
 	private _defulPos:egret.Point;
 
@@ -33,7 +34,7 @@ class Mons extends egret.DisplayObjectContainer {
 
 	private onAddToStage(event: egret.Event) {
 		this.initMovieClip();
-		this._Hp=Math.floor(1+Math.random()*20);
+		this._Hp=Math.floor(1+Math.random()*100);
 		//记录出生坐标
 		this._defulPos = new egret.Point();
 		this._defulPos.x=this.x;
@@ -79,6 +80,9 @@ class Mons extends egret.DisplayObjectContainer {
 		this.addChild( this._mc1 );
 		this._mc1.x=0;
 		this._mc1.y=0;
+
+		//随机倍率
+		this._DB=Math.floor(1+100*Math.random());
 
 		// var data = RES.getRes("s1_json");
 		// var txtr = RES.getRes("s1_png");

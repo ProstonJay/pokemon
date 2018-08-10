@@ -1,10 +1,11 @@
-class Hall_Window_Email_Open extends eui.Component implements  eui.UIComponent {
+class Hall_Window_Email_Open extends eui.ItemRenderer implements  eui.UIComponent {
 
 	public static _NAME:string = "Hall_Window_Email_Open";
 
-	public constructor() {
+	public constructor(val:Object) {
 		super();
 		this.addEventListener(egret.Event.REMOVED_FROM_STAGE, this.Removed, this);
+		this.data=val;
 	}
 
 	protected partAdded(partName:string,instance:any):void
@@ -18,6 +19,7 @@ class Hall_Window_Email_Open extends eui.Component implements  eui.UIComponent {
 	}
 
 	public _CloseBtn:eui.EffectButton;
+	public _DeletBtn:eui.EffectButton;
 
 
 	protected childrenCreated():void
@@ -25,6 +27,15 @@ class Hall_Window_Email_Open extends eui.Component implements  eui.UIComponent {
 		super.childrenCreated();
 
 		this._CloseBtn.addEventListener(egret.TouchEvent.TOUCH_TAP,this.Click_CloseBtn,this);
+		this._DeletBtn.addEventListener(egret.TouchEvent.TOUCH_TAP,this.Click_DeletBtn,this);
+	}
+
+	private Click_DeletBtn(event:egret.TouchEvent){
+		var changeEvent = egret.Event.create(GameEvent,GameEvent.Test);
+        changeEvent.pos = new egret.Point(this.x,this.y);
+		changeEvent.val=this.data;
+		this.stage.dispatchEvent(changeEvent);
+		this.parent.removeChild(this);
 	}
 
 

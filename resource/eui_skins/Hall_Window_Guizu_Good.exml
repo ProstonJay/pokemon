@@ -1,0 +1,10 @@
+﻿<e:Skin class="Hall_Window_Guizu_GoodSkin" width="520" height="117" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16518cd2a6e" ></w:Config>
+	<e:Image width="100%" height="100%" x="0" y="0" source="duihuan_ditu1_png"/>
+	<e:Image width="120" height="122" x="2" y="-3" source="duihuan_ditu2_png"/>
+	<e:Image  width="90" height="90" x="16" y="14" source="libao_tubiao_ditu1_png"/>
+	<e:Image width="86" height="86" x="18" y="17" source="{data.AssetName}" anchorOffsetY="0" anchorOffsetX="0"/>
+	<e:Label  x="133" y="10" anchorOffsetX="0" width="140" anchorOffsetY="0" height="38" fontFamily="SimHei" textAlign="left" size="26" text="{data.Name}" textColor="0xff940f" verticalAlign="middle"/>
+	<e:Label x="133" y="48" anchorOffsetX="0" width="365" anchorOffsetY="0" height="61" fontFamily="SimHei" verticalAlign="middle" textAlign="left" size="24" textColor="0x6CF20E" text="{data.Description}"/>
+	<e:Label x="273" y="10" anchorOffsetX="0" width="218" anchorOffsetY="0" height="36" fontFamily="SimHei" verticalAlign="middle" size="30" text="{data.num}" bold="false" textColor="0xf9e316" textAlign="left"/>
+</e:Skin>

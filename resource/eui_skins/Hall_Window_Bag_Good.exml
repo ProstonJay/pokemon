@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="Hall_Window_Bag_GoodSkin" width="479" height="117" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+<e:Skin class="Hall_Window_Bag_GoodSkin" width="520" height="117" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
 	<w:Config id="1650ef1a994" ></w:Config>
-	<e:Image width="479" height="117" x="0" y="0" source="duihuan_ditu1_png"/>
+	<e:Image width="100%" height="100%" x="0" y="0" source="duihuan_ditu1_png"/>
 	<e:Image width="120" height="122" x="2" y="-3" source="duihuan_ditu2_png"/>
-	<e:Image  width="90" height="90" x="16" y="14" source="{data.icon}"/>
-	<e:Label  x="137" y="18" anchorOffsetX="0" width="328" anchorOffsetY="0" height="82" textColor="0xec1df7" fontFamily="SimHei" verticalAlign="middle" textAlign="center" text="{data.goodsName}"/>
+	<e:Image  width="90" height="90" x="16" y="14" source="{data.AssetName}"/>
+	<e:Label  x="132" y="51" anchorOffsetX="0" width="328" anchorOffsetY="0" height="57" fontFamily="SimHei" verticalAlign="middle" textAlign="left" size="24" text="     {data.Description}" textColor="0xc2f46e"/>
+	<e:Label x="132" y="18" anchorOffsetX="0" width="119" anchorOffsetY="0" height="28" fontFamily="SimHei" textAlign="left" text="{data.Name}" size="24" textColor="0xf48111"/>
 </e:Skin>

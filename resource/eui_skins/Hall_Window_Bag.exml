@@ -2,22 +2,62 @@
 	<w:Config id="1650e57b0e5" ></w:Config>
 	<e:Group width="720" height="1280" x="0" y="0">
 		<e:Image source="duihuan_ditu_png" width="607.46" height="843.97" scaleX="1" scaleY="1" scale9Grid="57,50,50,60" anchorOffsetX="301.1" anchorOffsetY="420.93" verticalCenter="31" horizontalCenter="-0.5"/>
+		<e:Image width="560" height="667" y="405" source="tujian_ditu1_png" anchorOffsetY="0" horizontalCenter="0"/>
 		<e:Image source="duihuan_biaoti_png" horizontalCenter="0" top="155" anchorOffsetX="212.12" anchorOffsetY="75.76"/>
 		<eui:EffectButton id="_CloseBtn" label="" x="640.64" y="266.91" enabled="true" anchorOffsetX="40.91" anchorOffsetY="40.91">
 			<eui:skinName>
-				<e:Skin states="up,down,disabled">
+			<e:Skin states="up,down,disabled">
 				<e:Image width="100%" height="100%" source="duihuan_guanbi_png" source.down="duihuan_guanbi_png" source.disabled="duihuan_guanbi_png"/>
 				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
-				</e:Skin>
+			</e:Skin>
 			</eui:skinName>
 		</eui:EffectButton>
+		<eui:EffectButton id="_TabBtn1" label="货币" x="88" y="363" enabled="true">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="109" height="47" source="shop_kuang_png" source.down="shop_kuang_png" source.disabled="shop_kuang_png" scale9Grid="15,15,25,26" anchorOffsetX="0" anchorOffsetY="0" x="0" y="-2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<eui:EffectButton id="_TabBtn2" label="道具" x="195" y="362.52" enabled="true">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="109" height="47" source="shop_kuang_png" source.down="shop_kuang_png" source.disabled="shop_kuang_png" scale9Grid="15,15,25,26" anchorOffsetX="0" anchorOffsetY="0" x="0" y="-2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+		<eui:EffectButton id="_TabBtn3" label="碎片" x="303" y="363" enabled="true">
+			<eui:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="109" height="47" source="shop_kuang_png" source.down="shop_kuang_png" source.disabled="shop_kuang_png" scale9Grid="15,15,25,26" anchorOffsetX="0" anchorOffsetY="0" x="0" y="-2"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</eui:skinName>
+		</eui:EffectButton>
+
 		<e:Image source="bag_tubiao_png" horizontalCenter="0.5" verticalCenter="-433"/>
-		<e:Image source="bag_zi_png" y="320.48" horizontalCenter="0"/>
-		<e:Scroller width="523" height="663.51" x="95" y="373.52" anchorOffsetX="0" anchorOffsetY="0" enabled="true" verticalScrollBar="null">
-			<e:List id="_list" width="275" anchorOffsetY="0" height="667.51" x="0" y="-28">
+		<e:Image source="bag_zi_png" y="307" horizontalCenter="-62"/>
+		<e:Scroller width="523" height="650.51" y="412.52" anchorOffsetX="0" anchorOffsetY="0" enabled="true" verticalScrollBar="null" horizontalCenter="-3.5">
+			<e:List id="_list" width="275" anchorOffsetY="0" height="657.51" x="0" y="-28">
 				<e:layout>
 					<e:VerticalLayout/>
 				</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller width="523" height="650.51" y="412.52" anchorOffsetX="0" anchorOffsetY="0" enabled="true" verticalScrollBar="null" horizontalCenter="-3.5">
+			<e:List id="_list0" width="275" anchorOffsetY="0" height="650.51" x="0" y="-2">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Scroller width="523" height="650.51" y="412.52" anchorOffsetX="0" anchorOffsetY="0" enabled="true" verticalScrollBar="null" horizontalCenter="-3.5">
+			<e:List id="_list1" width="275" anchorOffsetY="0" height="650.51" x="0" y="-2">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
 			</e:List>
 		</e:Scroller>
 	</e:Group>
